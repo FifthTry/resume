@@ -1,0 +1,86 @@
+-- import: fpm
+/-- import: fifthtry.github.io/resume/assets
+
+-- ftd.column:
+
+--- profile-details:
+candidate-name: Rohit Sharma
+candidate-label: Software Developer
+candidate-email-address: no_reply@example. com
+candidate-phone-no: 4598955165
+candidate-address: Delhi, India
+candidate-linkedin: linkedin. com/in/rohit
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+-- ftd.row profile-details:
+/ftd.image-src profile-picture: $assets.files.assets.Profile.png
+string candidate-name: 
+string candidate-label:
+body candidate-profile-summary:
+string candidate-email-address:
+integer candidate-phone-no:
+string candidate-address:
+string candidate-linkedin:
+
+
+--- ftd.row:
+
+/--- ftd.image:
+src: $profile-picture
+width: 70
+height: 100
+
+--- ftd.column:
+padding-horizontal: $fpm.space.space-6
+
+--- ftd.text: 
+text: $candidate-name
+role: $fpm.type.heading-large
+
+--- ftd.text:
+text: $candidate-label
+role: $fpm.type.heading-small
+color: $fpm.color.main.warning.text
+
+--- ftd.row:
+spacing: 20
+id: side-row
+
+--- ftd.text:
+text: $candidate-profile-summary
+role: $fpm.type.label-small
+padding-vertical: $fpm.space.space-3
+width: 400
+
+--- ftd.column:
+background-color: $fpm.color.main.background.step-1
+padding-vertical: $fpm.space.space-4
+padding-horizontal: $fpm.space.space-4
+border-radius: 8
+spacing: 12
+
+--- ftd.text:
+text: $candidate-email-address
+color: $fpm.color.main.text-strong
+
+--- ftd.integer: 
+value: $candidate-phone-no
+color: $fpm.color.main.text-strong
+
+--- ftd.text:
+text: $candidate-address
+color: $fpm.color.main.text-strong
+
+--- ftd.text:
+text: $candidate-linkedin
+color: $fpm.color.main.text-strong
+
+--- container: side-row
+
+--- ftd.column:
+background-color: $fpm.color.main.background.base
+padding-vertical: $fpm.space.space-4
+padding-horizontal: $fpm.space.space-4
+border-radius: 8
+spacing: 12
