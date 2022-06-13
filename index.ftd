@@ -1,0 +1,28 @@
+-- import: fpm
+-- import: fifthtry.github.io/resume/assets
+
+-- ftd.column:
+
+--- profile-details:
+candidate-profile-summary:
+
+ncjndscjkndskvn kdsmvklsmlkdm kvlmskmvklsmmvsmlkv dsjhbdbdsbkjdsnjndsnds
+
+-- ftd.column profile-details:
+ftd.image-src profile-picture: $assets.files.assets.Profile.png
+string candidate-name: Rohit Sharma
+body candidate-profile-summary:
+
+--- ftd.image:
+src: $profile-picture
+width: 70
+height: 100
+
+--- ftd.row:
+
+--- ftd.text: 
+text: $candidate-name
+role: $fpm.type.heading-large
+
+--- ftd.text:
+text: $candidate-profile-summary
