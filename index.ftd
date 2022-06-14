@@ -1,51 +1,155 @@
 -- import: fpm
-/-- import: fifthtry.github.io/resume/assets
+-- import: fifthtry.github.io/resume/assets
 
--- ftd.column:
-
---- profile-details:
+-- profile-details:
 candidate-name: Rohit Sharma
 candidate-label: Software Developer
 candidate-email-address: no_reply@example. com
 candidate-phone-no: 4598955165
 candidate-address: Delhi, India
 candidate-linkedin: linkedin. com/in/rohit
+work-heading: WORK EXPERIENCE
+candidate-previous-work-label: Web Developer
+candidate-previous-company-name: ABCD software PVT LTD
+candidate-previous-work-span: 08/2019 - present
+candidate-work-experience-first-details: - Web Development using Django 
+candidate-work-experience-second-details: - Front-end web development  
+candidate-work-experience-third-details: - FTD developer 
+volunteer-heading: VOLUNTEER
+candidate-volunteer-label: Animal Rescuer
+candidate-volunteer-organisation-name: Fauna Foundation
+candidate-volunteer-work-span: 09/2017 - 10/2019
+candidate-volunteer-experience-first-details: - Recued hundreds of turtles who was in bad condition.
+candidate-volunteer-experience-second-details: - Given many strey dogs a better life.
+candidate-volunteer-experience-third-details: - Trained many pet parents how to take care of pets.
+education-heading: EDUCATION
+candidate-degree: B.Tech in Computer Science & Engineering 
+candidate-college-name: ABCD College of Engineering
+candidate-college-span: 2015 - 2019
+languages-heading: LANGUAGES
+candidate-first-language: - `English` (Fluent)
+candidate-second-language: - `Hindi` (Native)
+candidate-third-language: - `Bengali` (Native)
+interest-heading: INTERESTS
+candidate-first-interest: - Sports
+candidate-second-interest: - Music
+skill-heading: SKILLS
+candidate-first-skill: - `html`
+candidate-second-skill: - `css`
+candidate-third-skill: - `js`
+candidate-fourth-skill: - `FTD`
+project-heading: PROJECTS
+candidate-first-project: - `Facial expression recognisation on video call using Machine Learning`
+candidate-second-project: - `Developed a complete e-commerse website`
+candidate-third-project: - `Heart disease prediction`
+award-heading: AWARDS
+candidate-first-award: - `Critical software engineering talent award`
+candidate-second-award: - `Innovative leadership talent award`
+certificate-heading: CERTIFICATES
+candidate-first-certificate: - `Certified Scrum Master`
+candidate-second-certificate: - `Microsoft Certified Software Developer`
+candidate-third-certificate: - `Certified Secure Software Lifecyle Professional`
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
--- ftd.row profile-details:
-/ftd.image-src profile-picture: $assets.files.assets.Profile.png
+
+
+
+
+
+
+
+
+-- ftd.column profile-details:
+ftd.image-src profile-picture: $assets.files.assests.profile.png
 string candidate-name: 
 string candidate-label:
 body candidate-profile-summary:
+ftd.image-src email-icon: $assets.files.assests.email-icon.png
 string candidate-email-address:
+ftd.image-src phone-icon: $assets.files.assests.phone-icon.png
 integer candidate-phone-no:
+ftd.image-src address-icon: $assets.files.assests.address-icon.png
 string candidate-address:
+ftd.image-src linkedin-icon: $assets.files.assests.linkedin-icon.png
 string candidate-linkedin:
+ftd.image-src work-icon: $assets.files.assests.work-icon.png
+string work-heading:
+string candidate-previous-work-label:
+string candidate-previous-company-name:
+string candidate-previous-work-span:
+string candidate-work-experience-first-details:
+string candidate-work-experience-second-details:
+string candidate-work-experience-third-details:
+ftd.image-src volunteer-icon: $assets.files.assests.volunteer-icon.png
+string volunteer-heading:
+string candidate-volunteer-label:
+string candidate-volunteer-organisation-name:
+string candidate-volunteer-work-span:
+string candidate-volunteer-experience-first-details:
+string candidate-volunteer-experience-second-details:
+string candidate-volunteer-experience-third-details:
+ftd.image-src education-icon: $assets.files.assests.education-icon.png
+string education-heading:
+string candidate-degree:
+string candidate-college-name:
+string candidate-college-span:
+ftd.image-src language-icon: $assets.files.assests.language-icon.png
+string languages-heading:
+string candidate-first-language:
+string candidate-second-language:
+string candidate-third-language:
+ftd.image-src interest-icon: $assets.files.assests.interest-icon.png
+string interest-heading:
+string candidate-first-interest:
+string candidate-second-interest:
+ftd.image-src skills-icon: $assets.files.assests.skills-icon.png
+string skill-heading:
+string candidate-first-skill:
+string candidate-second-skill:
+string candidate-third-skill:
+string candidate-fourth-skill: 
+ftd.image-src project-icon: $assets.files.assests.project-icon.png
+string project-heading:
+string candidate-first-project:
+string candidate-second-project:
+string candidate-third-project: 
+ftd.image-src award-icon: $assets.files.assests.award-icon.png
+string award-heading:
+string candidate-first-award:
+string candidate-second-award: 
+ftd.image-src certificate-icon: $assets.files.assests.certificate-icon.png
+string certificate-heading:
+string candidate-first-certificate:
+string candidate-second-certificate:
+string candidate-third-certificate: 
+align: center
 
+--- ftd.column:
 
 --- ftd.row:
+id: side-row
 
-/--- ftd.image:
+--- ftd.image:
 src: $profile-picture
-width: 70
-height: 100
+width: percent 20
+padding-top: $fpm.space.space-6
+padding-left: $fpm.space.space-4
 
 --- ftd.column:
 padding-horizontal: $fpm.space.space-6
+id: main-row
 
 --- ftd.text: 
 text: $candidate-name
-role: $fpm.type.heading-large
+role: $fpm.type.heading-hero
+padding-top: $fpm.space.space-6
 
 --- ftd.text:
 text: $candidate-label
 role: $fpm.type.heading-small
 color: $fpm.color.main.warning.text
-
---- ftd.row:
-spacing: 20
-id: side-row
 
 --- ftd.text:
 text: $candidate-profile-summary
@@ -53,34 +157,378 @@ role: $fpm.type.label-small
 padding-vertical: $fpm.space.space-3
 width: 400
 
---- ftd.column:
-background-color: $fpm.color.main.background.step-1
+
+--- container: ftd.main
+
+--- ftd.row:
+background-color: $fpm.color.main.background.step-2
 padding-vertical: $fpm.space.space-4
 padding-horizontal: $fpm.space.space-4
+margin-top: $fpm.space.space-3
+margin-bottom: $fpm.space.space-3
+margin-left: $fpm.space.space-6
 border-radius: 8
 spacing: 12
+id: basic-row
+
+--- ftd.row:
+
+--- ftd.image:
+src: $email-icon
+width: 20
+
+--- ftd.column:
 
 --- ftd.text:
 text: $candidate-email-address
 color: $fpm.color.main.text-strong
+padding-left: $fpm.space.space-2
+
+--- container: basic-row
+
+--- ftd.row:
+
+--- ftd.image:
+src: $phone-icon
+width: 17
+padding-top: $fpm.space.space-1
+
+--- ftd.column:
 
 --- ftd.integer: 
 value: $candidate-phone-no
 color: $fpm.color.main.text-strong
+padding-left: $fpm.space.space-2
+
+--- container: basic-row
+
+--- ftd.row:
+padding-top: 2
+
+--- ftd.image:
+src: $address-icon
+width: 20
+
+--- ftd.column:
 
 --- ftd.text:
 text: $candidate-address
 color: $fpm.color.main.text-strong
+padding-left: $fpm.space.space-2
+
+--- container: basic-row
+
+--- ftd.row:
+
+--- ftd.image:
+src: $linkedin-icon
+width: 20
+
+--- ftd.column:
 
 --- ftd.text:
 text: $candidate-linkedin
 color: $fpm.color.main.text-strong
+padding-left: $fpm.space.space-2
 
---- container: side-row
+
+
+--- container: ftd.main
 
 --- ftd.column:
-background-color: $fpm.color.main.background.base
-padding-vertical: $fpm.space.space-4
-padding-horizontal: $fpm.space.space-4
-border-radius: 8
-spacing: 12
+padding-left: $fpm.space.space-6
+
+---  ftd.row:
+
+--- ftd.image:
+src: $work-icon
+width: 40
+padding-top: $fpm.space.space-2
+padding-left: $fpm.space.space-3
+
+--- ftd.column:
+
+--- ftd.text: 
+text: $work-heading
+role: $fpm.type.heading-medium
+color: $fpm.color.main.cta-tertiary.pressed
+padding-left: $fpm.space.space-2
+
+--- ftd.text:
+text: $candidate-previous-work-label
+role: $fpm.type.copy-large
+
+--- ftd.text:
+text: $candidate-previous-company-name
+role: $fpm.type.copy-relaxed
+
+--- ftd.text:
+text: $candidate-previous-work-span
+color: $fpm.color.main.warning.text
+role: $fpm.type.label-small
+padding-vertical: $fpm.space.space-2
+
+--- ftd.text: 
+text: $candidate-work-experience-first-details
+role: $fpm.type.label-big
+
+--- ftd.text: 
+text: $candidate-work-experience-second-details
+role: $fpm.type.label-big
+
+--- ftd.text: 
+text: $candidate-work-experience-third-details
+role: $fpm.type.label-big
+
+--- container: ftd.main
+
+--- ftd.row:
+padding-left: $fpm.space.space-7
+
+--- ftd.image:
+src: $education-icon
+width: 30
+padding-top: $fpm.space.space-2
+
+--- ftd.column:
+
+--- ftd.text: 
+text: $education-heading
+role: $fpm.type.heading-medium
+color: $fpm.color.main.cta-tertiary.pressed
+padding-left: $fpm.space.space-2
+
+--- ftd.text:
+text: $candidate-degree
+role: $fpm.type.copy-large
+
+--- ftd.text:
+text: $candidate-college-name
+role: $fpm.type.copy-relaxed
+
+--- ftd.text:
+text: $candidate-college-span
+color: $fpm.color.main.warning.text
+role: $fpm.type.label-small
+padding-vertical: $fpm.space.space-2
+
+--- container: ftd.main
+
+--- ftd.row:
+padding-left: $fpm.space.space-7
+
+--- ftd.image:
+src: $skills-icon
+width: 30
+padding-top: $fpm.space.space-2
+
+--- ftd.column:
+
+--- ftd.text:
+text: $skill-heading
+color: $fpm.color.main.cta-tertiary.pressed
+role: $fpm.type.heading-medium
+padding-left: $fpm.space.space-2
+
+--- ftd.text:
+text: $candidate-first-skill
+role: $fpm.type.label-big
+
+--- ftd.text:
+text: $candidate-second-skill
+role: $fpm.type.label-big
+
+--- ftd.text:
+text: $candidate-third-skill
+role: $fpm.type.label-big
+
+--- ftd.text:
+text: $candidate-fourth-skill
+role: $fpm.type.label-big
+
+--- container: ftd.main
+
+--- ftd.row:
+padding-left: $fpm.space.space-7
+
+--- ftd.image:
+src: $project-icon
+width: 25
+padding-top: $fpm.space.space-2
+
+--- ftd.column:
+
+--- ftd.text:
+text: $project-heading
+color: $fpm.color.main.cta-tertiary.pressed
+role: $fpm.type.heading-medium
+padding-left: $fpm.space.space-2
+
+--- ftd.text:
+text: $candidate-first-project
+role: $fpm.type.label-big
+
+--- ftd.text:
+text: $candidate-second-project
+role: $fpm.type.label-big
+
+--- ftd.text:
+text: $candidate-third-project
+role: $fpm.type.label-big
+
+--- container: ftd.main
+
+--- ftd.row:
+padding-left: $fpm.space.space-7
+
+--- ftd.image:
+src: $award-icon
+width: 15
+padding-top: $fpm.space.space-2
+
+--- ftd.column:
+
+--- ftd.text:
+text: $award-heading
+color: $fpm.color.main.cta-tertiary.pressed
+role: $fpm.type.heading-medium
+padding-left: $fpm.space.space-2
+
+--- ftd.text:
+text: $candidate-first-award
+role: $fpm.type.label-big
+
+--- ftd.text:
+text: $candidate-second-award
+role: $fpm.type.label-big
+
+--- container: ftd.main
+
+--- ftd.row:
+padding-left: $fpm.space.space-7
+
+--- ftd.image:
+src: $certificate-icon
+width: 25
+padding-top: $fpm.space.space-2
+
+--- ftd.column:
+
+--- ftd.text:
+text: $certificate-heading
+color: $fpm.color.main.cta-tertiary.pressed
+role: $fpm.type.heading-medium
+padding-left: $fpm.space.space-2
+
+--- ftd.text:
+text: $candidate-first-certificate
+role: $fpm.type.label-big
+
+--- ftd.text:
+text: $candidate-second-certificate
+role: $fpm.type.label-big
+
+--- ftd.text:
+text: $candidate-third-certificate
+role: $fpm.type.label-big
+
+
+--- container: ftd.main
+
+--- ftd.row:
+padding-left: $fpm.space.space-7
+
+--- ftd.image:
+src: $volunteer-icon
+width: 40
+
+--- ftd.column:
+
+--- ftd.text: 
+text: $volunteer-heading
+role: $fpm.type.heading-medium
+color: $fpm.color.main.cta-tertiary.pressed
+padding-left: $fpm.space.space-2
+
+--- ftd.text:
+text: $candidate-volunteer-label
+role: $fpm.type.copy-large
+
+--- ftd.text:
+text: $candidate-volunteer-organisation-name
+role: $fpm.type.copy-relaxed
+
+--- ftd.text:
+text: $candidate-volunteer-work-span
+color: $fpm.color.main.warning.text
+role: $fpm.type.label-small
+padding-vertical: $fpm.space.space-2
+
+--- ftd.text: 
+text: $candidate-volunteer-experience-first-details
+role: $fpm.type.label-big
+
+--- ftd.text: 
+text: $candidate-volunteer-experience-second-details
+role: $fpm.type.label-big
+
+--- ftd.text: 
+text: $candidate-volunteer-experience-third-details
+role: $fpm.type.label-big
+
+--- container: ftd.main
+
+--- ftd.row:
+padding-left: $fpm.space.space-7
+
+--- ftd.image:
+src: $language-icon
+width: 30
+padding-top: $fpm.space.space-2
+
+--- ftd.column:
+
+--- ftd.text: 
+text: $languages-heading
+role: $fpm.type.heading-medium
+color: $fpm.color.main.cta-tertiary.pressed
+padding-left: $fpm.space.space-2
+
+--- ftd.text: 
+text: $candidate-first-language
+role: $fpm.type.label-big
+
+--- ftd.text: 
+text: $candidate-second-language
+role: $fpm.type.label-big
+
+--- ftd.text: 
+text: $candidate-third-language
+role: $fpm.type.label-big
+
+--- container: ftd.main
+
+--- ftd.row:
+padding-left: $fpm.space.space-7
+
+--- ftd.image:
+src: $interest-icon
+width: 25
+padding-top: $fpm.space.space-2
+
+--- ftd.column:
+
+--- ftd.text: 
+text: $interest-heading
+role: $fpm.type.heading-medium
+color: $fpm.color.main.cta-tertiary.pressed
+padding-left: $fpm.space.space-2
+
+--- ftd.text: 
+text: $candidate-first-interest
+role: $fpm.type.label-big
+
+--- ftd.text: 
+text: $candidate-second-interest
+role: $fpm.type.label-big
+
