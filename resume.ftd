@@ -1,0 +1,288 @@
+-- string list profile:
+-- string list roles:
+-- import: fpm
+-- import: fifthtry.github.io/resume/assets
+
+
+
+
+
+-- string list interest:
+
+
+
+
+
+
+
+
+-- record publication-data:
+caption title:
+string publiser:
+string releasedate:
+string url:
+body summary:
+
+-- publication-data list publications:
+
+
+
+
+
+
+
+
+
+-- record skill-data:
+caption title:
+string list keywords:
+
+
+-- skill-data list skills:
+
+
+
+
+
+
+
+
+
+-- record language-data:
+caption title:
+string fluency:
+
+-- language-data list languages:
+
+
+
+
+
+
+
+
+
+-- record reference-data:
+caption title:
+body body:
+
+-- reference-data list references:
+
+
+
+
+
+
+
+
+
+-- record project-data:
+caption title:
+string url:
+body description:
+string list highlights-project:
+optional string startdate:
+string url:
+optional string enddate:
+string list roles:
+
+
+-- project-data list projects:
+
+
+
+
+
+
+
+
+
+-- record certificate-data:
+caption title:
+string issuer:
+string url:
+
+-- certificate-data list certificate:
+
+
+
+
+
+
+
+
+
+-- record volunteer-data:
+string organization:
+string position:
+string url:
+string startdate:
+string enddate:
+body summary:
+string list volunteer-highlights:
+
+-- volunteer-data list volunteers:
+
+
+
+
+
+
+
+
+
+-- record education-data:
+caption institution:
+string url:
+string course:
+string studytype:
+optional string startdate:
+optional string enddate:
+optional decimal weightage:
+
+-- education-data list education:
+
+
+
+
+
+
+
+
+
+-- record work-data:
+caption title:
+string label:
+string location:
+string url:
+string startdate:
+string enddate:
+body summary:
+string list work-highlights: 
+
+-- work-data list works:
+
+
+
+
+
+
+
+
+
+-- record award-data:
+caption title:
+string awarder:
+body summary:
+
+-- award-data list awards:
+
+
+
+
+
+
+
+
+
+-- record address-data:
+optional string city:
+optional string state:
+optional string country:
+
+
+
+
+
+
+
+
+
+
+-- record basic-data:
+caption name:
+string email:
+string label:
+string phone-no:
+body summary:
+string url:
+address-data location:
+ftd.image-src avatar:
+string list profile:
+
+
+
+
+
+
+
+-- address-data location:
+city: Delhi
+state: Delhi
+country: India
+
+
+
+
+
+
+
+
+
+-- basic-data basic:
+name: your name
+label: your label
+avatar: $assets.files.assests.profile.png
+email: email@example. com
+phone-no: +91 4598955165
+url: /
+location: $location
+profile: $profile
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+
+
+
+
+
+
+
+
+-- record resume-data:
+basic-data basic:
+work-data list works:
+award-data list awards:
+volunteer-data list volunteers:
+education-data list education:
+certificate-data list certificate:
+publication-data list publications:
+skill-data list skills:
+language-data list languages:
+reference-data list references:
+project-data list projects:
+string list interest:
+
+
+
+
+
+
+
+
+
+-- resume-data resume:
+basic: $basic
+works: $works
+awards: $awards
+volunteers: $volunteers
+education: $education
+certificate: $certificate
+publications: $publications
+skills: $skills
+references: $references
+languages: $languages
+projects: $projects
+interest: $interest
