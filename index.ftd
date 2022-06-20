@@ -18,6 +18,10 @@
 -- resume.basic.location.state: Delhi
 -- resume.basic.location.country: India
 -- resume.basic.profile: $profile
+-- resume.basic.linked-in: linkedin.com/in/your.name
+-- resume.basic.linked-in-url: https://www.linkedin.com/
+-- resume.basic.marital-status: Married
+-- resume.basic.date-of-birth: 06/09/1993
 -- resume.basic.summary:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -233,16 +237,14 @@ nostrud exercitation ullamco laboris nisi ut
 
 
 
+
 -- resume.skills: LANGUAGES
-keywords: JAVA
-keywords: PYTHON
-keywords: HTML
+name: Python
+expertise: Django
 
 -- resume.skills: xyz
-keywords: XYZ
-keywords: CVH
-keywords: CNJD
-
+name: GBH
+expertise: Nhgsf
 
 
 
@@ -399,7 +401,8 @@ $loop$: $resume.education as $obj
 
 --- skills-card-data:
 title: $obj.title
-keywords: $obj.keywords
+name: $obj.name
+expertise: $obj.expertise
 $loop$: $resume.skills as $obj
 
 --- certificate-head:
@@ -538,8 +541,16 @@ string candidate-address-state: $resume.basic.location.state
 string candidate-address-country: $resume.basic.location.country
 ftd.image-src profile-icon: $assets.files.assests.profile-icon.png
 string list profile: $resume.basic.profile
+ftd.image-src linkedin-icon: $assets.files.assests.linkedin-icon.png
+optional string linked-in: $resume.basic.linked-in
+optional string linked-in-url: $resume.basic.linked-in-url
+ftd.image-src marital-status-icon: $assets.files.assests.marital-status-icon.png
+optional string marital-status: $resume.basic.marital-status
+ftd.image-src dob-icon: $assets.files.assests.dob-icon.png
+optional string date-of-birth: $resume.basic.date-of-birth
 
---- ftd.row:
+
+--- ftd.column:
 background-color: $fpm.color.main.background.step-2
 padding-vertical: $fpm.space.space-4
 padding-horizontal: $fpm.space.space-4
@@ -589,7 +600,7 @@ padding-top: 2
 
 --- ftd.image:
 src: $address-icon
-width: 20
+width: 17
 
 --- ftd.text:
 text: $candidate-address-city
@@ -618,9 +629,64 @@ spacing: 4
 src: $profile-icon
 width: 20
 
+--- ftd.column:
+padding-left: $fpm.space.space-1
+
 --- ftd.text: $obj
 $loop$: $resume.profile as $obj
 color: $fpm.color.main.text-strong
+role: $fpm.type.label-small
+
+--- container: basic-row
+
+--- ftd.row:
+spacing: 4
+
+--- ftd.image:
+src: $linkedin-icon
+width: 20
+
+--- ftd.column:
+padding-left: $fpm.space.space-1
+
+--- ftd.text: 
+text: $linked-in 
+color: $fpm.color.main.text-strong
+role: $fpm.type.label-small
+
+--- ftd.text: 
+text: $linked-in-url
+color: $fpm.color.main.text-strong
+role: $fpm.type.label-small
+
+--- container: basic-row
+
+--- ftd.row:
+spacing: 4
+
+--- ftd.image:
+src: $marital-status-icon
+width: 20
+
+--- ftd.text:
+text: $marital-status
+color: $fpm.color.main.text-strong
+padding-left: $fpm.space.space-1
+role: $fpm.type.label-small
+
+--- container: basic-row
+
+--- ftd.row:
+spacing: 4
+
+--- ftd.image:
+src: $dob-icon
+width: 20
+
+--- ftd.text:
+text: $date-of-birth
+color: $fpm.color.main.text-strong
+padding-left: $fpm.space.space-1
 role: $fpm.type.label-small
 
 
@@ -835,8 +901,9 @@ padding-left: $fpm.space.space-2
 
 
 -- ftd.column skills-card-data:
-caption title: 
-string list keywords: $keywords
+optional caption title:
+string name:
+optional string expertise:
 
 --- ftd.column: 
 spacing: 8
@@ -845,10 +912,12 @@ padding-left: $fpm.space.space-7
 --- ftd.text: $title
 role: $fpm.type.heading-small
 
---- ftd.text: $obj
-$loop$: $keywords as $obj
-role: $fpm.type.label-big
-padding-bottom: $fpm.space.space-3
+--- ftd.text: $name
+role: $fpm.type.copy-large
+
+--- ftd.text: $expertise
+role: $fpm.type.copy-relaxed
+
 
 
 

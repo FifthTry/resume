@@ -28,9 +28,7 @@ body summary:
 
 
 
-
-
-
+	
 
 -- record skill-data:
 optional caption title:
@@ -103,6 +101,7 @@ optional string issuer:
 string url:
 optional string date:
 optional body body::
+
 
 -- certificate-data list certificate:
 
@@ -217,7 +216,6 @@ optional string marital-status:
 string phone-no:
 optional string date-of-birth:
 string email:
-string list profile:
 
 
 
@@ -247,6 +245,10 @@ phone-no: +91 4598955165
 url: /
 location: $location
 profile: $profile
+linked-in: linkedin.com/in/your.name
+linked-in-url: https://www.linkedin.com/
+marital-status: Married
+date-of-birth: 06/09/1993
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
