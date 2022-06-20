@@ -1,0 +1,392 @@
+-- string list profile:
+-- string list roles:
+-- import: fpm
+-- import: fifthtry.github.io/resume/assets
+
+
+
+
+
+-- string list interest:
+
+
+
+
+
+
+
+
+-- record publication-data:
+caption title:
+string publiser:
+string releasedate:
+string url:
+body summary:
+
+-- publication-data list publications:
+
+
+
+
+	
+
+-- record skill-data:
+optional caption title:
+string name:
+optional string expertise:
+
+
+-- skill-data list skills:
+
+-- skills: xyz
+name: HTML
+expertise: beginner
+
+-- skills: abc
+name: JavaScript
+expertise: expert
+
+
+
+
+-- record language-data:
+caption title:
+string fluency:
+optional string expertise:
+
+-- language-data list languages:
+
+-- languages: English
+fluency: Fluent
+expertise: expert
+
+-- languages: Hindi
+fluency: Fluent
+expertise: expert
+
+
+
+
+
+-- record reference-data:
+caption title:
+body body:
+
+-- reference-data list references:
+
+
+
+
+
+
+
+
+
+-- record project-data:
+caption title:
+string url:
+body description:
+string list highlights-project:
+optional string startdate:
+string url:
+optional string enddate:
+string list roles:
+
+
+-- project-data list projects:
+
+-- projects: Facial expression recognisation on video call using Machine Learning
+url: /
+startdate: 7/2018
+enddate:  8/2019
+roles: $roles
+highlights-project: Some highlights
+highlights-project: More highlights
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+-- projects: Developed a complete e-commerse website
+url: /
+startdate: 7/2017 
+enddate:  10/2017
+roles: $roles
+highlights-project: Some highlights
+highlights-project: More highlights
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut
+
+
+
+
+
+
+
+
+-- record certificate-data:
+caption title:
+optional string issuer:
+string url:
+optional string date:
+optional body body::
+
+
+-- certificate-data list certificate:
+
+-- certificate: Certified Scrum Master
+issuer: xyz
+url: /
+date: 12-2014
+
+-- certificate: Microsoft Certified Software Developer
+issuer: xyz
+url: /
+date: 12-2015
+
+
+
+
+
+
+
+
+-- record volunteer-data:
+string organization:
+string position:
+string url:
+string startdate:
+string enddate:
+body summary:
+string list volunteer-highlights:
+
+-- volunteer-data list volunteers:
+
+-- volunteers: 
+organization: ABCD Foundation
+position: Rescuar
+url: /
+startdate: 08/2019 t
+enddate: o present
+volunteer-highlights: Dog rescue
+volunteer-highlights: Stary animal helps
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut
+
+
+
+
+
+
+
+-- record education-data:
+caption institution:
+string url:
+string course:
+string studytype:
+optional string startdate:
+optional string enddate:
+optional decimal weightage:
+optional string location:
+optional string specialist:
+
+-- education-data list education:
+
+-- education: ABCD College of Engineering
+url: /
+course: B.Tech in Computer Science & Engineering 
+studytype: Graduation
+startdate: 08/2019 
+enddate:  08/2014
+weightage: 99
+location: Mumbai
+specialist: vxy
+
+-- education: ABCD SCHOOL
+url: /
+course: Higher Secondary
+studytype: Study
+startdate: 08/2014 
+enddate:  08/2012
+weightage: 99
+location: Mumbai
+
+
+
+
+
+
+
+-- record work-data:
+caption title:
+string label:
+string location:
+string url:
+string startdate:
+string enddate:
+body summary:
+string list work-highlights: 
+
+-- work-data list works:
+
+-- works: ABCD software PVT LTD
+label: Senior Web Developer
+location: india
+url: /
+startdate: 08/2019 
+enddate: present
+work-highlights: Web Development using Django
+work-highlights: Front-end web development
+work-highlights: FTD developer 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut
+
+
+-- works: XYZ software PVT LTD
+label: Web Developer
+location: india
+url: /
+startdate: 08/2018 
+enddate:  08/2019
+work-highlights: Web Development using Django
+work-highlights: Front-end web development
+work-highlights: FTD developer 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut
+
+
+
+
+-- record award-data:
+caption title:
+string awarder:
+body summary:
+
+-- award-data list awards:
+
+
+
+
+
+
+
+
+
+-- record address-data:
+optional string city:
+optional string state:
+optional string country:
+
+
+
+
+
+
+
+
+
+
+-- record basic-data:
+caption name:
+string label:
+body summary:
+string url:
+optional address-data location:
+optional ftd.image-src image:
+string list profile:
+optional string linked-in:
+optional string linked-in-url:
+optional string marital-status:
+string phone-no:
+optional string date-of-birth:
+string email:
+
+
+
+
+
+
+
+-- address-data location:
+city: Delhi
+state: Delhi
+country: India
+
+
+
+
+
+
+
+
+
+-- basic-data basic:
+name: your name
+label: your label
+image: $assets.files.assests.profile-image.png
+email: email@example. com
+phone-no: +91 4598955165
+url: /
+location: $location
+profile: $profile
+linked-in: linkedin.com/in/your.name
+linked-in-url: https://www.linkedin.com/
+marital-status: Married
+date-of-birth: 06/09/1993
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+
+
+
+
+
+
+
+
+-- record resume-data:
+basic-data basic:
+work-data list works:
+award-data list awards:
+volunteer-data list volunteers:
+education-data list education:
+certificate-data list certificate:
+publication-data list publications:
+skill-data list skills:
+language-data list languages:
+reference-data list references:
+project-data list projects:
+string list interest:
+
+
+
+
+
+
+
+
+
+-- resume-data resume:
+basic: $basic
+works: $works
+awards: $awards
+volunteers: $volunteers
+education: $education
+certificate: $certificate
+publications: $publications
+skills: $skills
+references: $references
+languages: $languages
+projects: $projects
+interest: $interest
+
