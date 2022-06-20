@@ -31,15 +31,10 @@ body summary:
 	
 
 
-
--- record keyword-data:
-caption title:
-optional string expertise:
-
-
 -- record skill-data:
-caption title:
-keyword-data list keywords:
+optional caption title:
+string name:
+optional string expertise:
 
 
 -- skill-data list skills:

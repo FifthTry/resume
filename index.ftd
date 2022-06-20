@@ -236,24 +236,15 @@ nostrud exercitation ullamco laboris nisi ut
 
 
 
--- resume.keyword-data list keywords: 
-
--- keywords: Front End Development
-expertise: HTML CSS FTD
-
--- keywords: Back End Development
-expertise: Laravel
-
--- keywords: Database
-expertise: SQL
-
 
 
 -- resume.skills: LANGUAGES
-keywords: $keywords
+name: Python
+expertise: Django
 
 -- resume.skills: xyz
-keywords: $keywords
+name: GBH
+expertise: Nhgsf
 
 
 
@@ -410,7 +401,8 @@ $loop$: $resume.education as $obj
 
 --- skills-card-data:
 title: $obj.title
-keywords: $obj.keywords
+name: $obj.name
+expertise: $obj.expertise
 $loop$: $resume.skills as $obj
 
 --- certificate-head:
@@ -909,8 +901,9 @@ padding-left: $fpm.space.space-2
 
 
 -- ftd.column skills-card-data:
-caption title: 
-resume.keyword-data list keywords: $keywords
+optional caption title:
+string name:
+optional string expertise:
 
 --- ftd.column: 
 spacing: 8
@@ -919,51 +912,12 @@ padding-left: $fpm.space.space-7
 --- ftd.text: $title
 role: $fpm.type.heading-small
 
---- keyword-list:
-title: $obj.title
-expertise: $obj.expertise
-$loop$: $keywords as $obj
+--- ftd.text: $name
+role: $fpm.type.copy-large
 
+--- ftd.text: $expertise
+role: $fpm.type.copy-relaxed
 
-
-
-
-
-
-
-
--- ftd.row keyword-list:
-caption title:
-string expertise:
-width: fill
-padding-horizontal: $fpm.space.space-4
-margin-bottom: $fpm.space.space-3
-
---- ftd.text: $title
-width: fill
-max-width: 150
-role: $fpm.type.label-big
-
-
---- ftd.row:
-width: fill
-align: left
-
---- skill-expertise: $expertise
-
-
-
-
-
-
--- ftd.row skill-expertise:
-caption expertise:
-width: fill
-
---- ftd.text:
-text: $expertise
-role: $fpm.type.label-small
-color: $fpm.color.main.warning.text
 
 
 
