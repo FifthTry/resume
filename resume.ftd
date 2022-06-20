@@ -30,12 +30,14 @@ body summary:
 
 
 
-
+-- record keyword-data:
+caption title:
+optional string expertise:
 
 
 -- record skill-data:
 caption title:
-string list keywords:
+keyword-data list keywords:
 
 
 -- skill-data list skills:
@@ -47,10 +49,10 @@ string list keywords:
 
 
 
-
 -- record language-data:
 caption title:
 string fluency:
+optional string expertise:
 
 -- language-data list languages:
 
@@ -99,8 +101,10 @@ string list roles:
 
 -- record certificate-data:
 caption title:
-string issuer:
+optional string issuer:
 string url:
+optional string date:
+optional body body::
 
 -- certificate-data list certificate:
 
@@ -139,6 +143,8 @@ string studytype:
 optional string startdate:
 optional string enddate:
 optional decimal weightage:
+optional string location:
+optional string specialist:
 
 -- education-data list education:
 
@@ -201,13 +207,18 @@ optional string country:
 
 -- record basic-data:
 caption name:
-string email:
 string label:
-string phone-no:
 body summary:
 string url:
-address-data location:
+optional address-data location:
 ftd.image-src avatar:
+optional string list profile:
+optional string linked-in:
+optional string linked-in-url:
+optional string marital-status:
+string phone-no:
+optional string date-of-birth:
+string email:
 string list profile:
 
 
