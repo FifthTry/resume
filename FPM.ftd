@@ -3,3 +3,20 @@
 -- fpm.package: fifthtry.github.io/resume
 zip: github.com/fifthtry/resume/archive/refs/heads/main.zip
 
+
+-- fpm.dependency: fifthtry.github.io/package-doc as pd
+-- fpm.dependency: fifthtry.github.io/inter
+
+
+-- fpm.auto-import: pd
+-- fpm.auto-import: fpm
+-- fpm.auto-import: pd/typography as tf
+-- fpm.auto-import: pd/code-block as cb
+-- fpm.auto-import: pd/forest-theme as ft
+-- fpm.auto-import: fifthtry.github.io/resume/FPM/config
+
+-- fpm.sitemap:
+
+# Home: index.html
+# Sample Resume: /sample/
+
