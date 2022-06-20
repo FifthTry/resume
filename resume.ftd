@@ -30,14 +30,12 @@ body summary:
 
 
 
--- record keyword-data:
-caption title:
-optional string expertise:
 
 
 -- record skill-data:
-caption title:
-keyword-data list keywords:
+optional caption title:
+string name:
+optional string expertise:
 
 
 -- skill-data list skills:
@@ -211,7 +209,7 @@ string label:
 body summary:
 string url:
 optional address-data location:
-ftd.image-src avatar:
+optional ftd.image-src image:
 optional string list profile:
 optional string linked-in:
 optional string linked-in-url:
@@ -243,7 +241,7 @@ country: India
 -- basic-data basic:
 name: your name
 label: your label
-avatar: $assets.files.assests.profile.png
+image: $assets.files.assests.profile.png
 email: email@example. com
 phone-no: +91 4598955165
 url: /
