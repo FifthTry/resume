@@ -252,6 +252,8 @@ expertise: Nhgsf
 
 
 
+
+
 -- resume.languages: English
 fluency: (fluent)
 
@@ -260,6 +262,7 @@ fluency: (Native)
 
 -- resume.languages: Bengali
 fluency: (Native)
+
 
 
 
@@ -292,6 +295,10 @@ nostrud exercitation ullamco laboris nisi ut
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
 nostrud exercitation ullamco laboris nisi ut 
+
+
+
+
 
 
 
@@ -355,6 +362,11 @@ nostrud exercitation ullamco laboris nisi ut
 
 
 -- resume-card-data:
+
+
+
+
+
 
 -- ftd.column resume-card-data:
 align: center
@@ -548,7 +560,6 @@ ftd.image-src marital-status-icon: $assets.files.assests.marital-status-icon.png
 optional string marital-status: $resume.basic.marital-status
 ftd.image-src dob-icon: $assets.files.assests.dob-icon.png
 optional string date-of-birth: $resume.basic.date-of-birth
-
 
 --- ftd.column:
 background-color: $fpm.color.main.background.step-2
