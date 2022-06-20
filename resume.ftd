@@ -28,14 +28,18 @@ body summary:
 
 
 
+	
 
 
 
+-- record keyword-data:
+caption title:
+optional string expertise:
 
 
 -- record skill-data:
 caption title:
-string list keywords:
+keyword-data list keywords:
 
 
 -- skill-data list skills:
@@ -51,6 +55,7 @@ string list keywords:
 -- record language-data:
 caption title:
 string fluency:
+optional string expertise:
 
 -- language-data list languages:
 
@@ -101,6 +106,8 @@ string list roles:
 caption title:
 string issuer:
 string url:
+optional string date:
+optional body body:
 
 -- certificate-data list certificate:
 
@@ -139,6 +146,8 @@ string studytype:
 optional string startdate:
 optional string enddate:
 optional decimal weightage:
+optional string location:
+optional string specialist:
 
 -- education-data list education:
 
@@ -206,9 +215,13 @@ string label:
 string phone-no:
 body summary:
 string url:
-address-data location:
+optional address-data location:
 ftd.image-src avatar:
 string list profile:
+optional string linked-in:
+optional string linked-in-url:
+optional string marital-status:
+optional string date-of-birth:
 
 
 
@@ -238,6 +251,10 @@ phone-no: +91 4598955165
 url: /
 location: $location
 profile: $profile
+linked-in: linkedin.com/in/your.name
+linked-in-url: https://www.linkedin.com/
+marital-status: Married
+date-of-birth: 06/09/1993
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
