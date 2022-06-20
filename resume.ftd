@@ -209,7 +209,7 @@ body summary:
 string url:
 optional address-data location:
 optional ftd.image-src image:
-optional string list profile:
+string list profile:
 optional string linked-in:
 optional string linked-in-url:
 optional string marital-status:
