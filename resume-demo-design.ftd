@@ -2,6 +2,11 @@
 -- import: fifthtry.github.io/resume/assets
 -- import: fifthtry.github.io/resume/resume as resume
 
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
+
 
 -- resume.profile: https://domain.com/xvy
 
@@ -407,73 +412,6 @@ name: $obj.name
 expertise: $obj.expertise
 $loop$: $resume.skills as $obj
 
-/--- certificate-head:
-
-/--- certificate-card-data:
-title: $obj.title
-issuer: $obj.issuer
-url: $obj.url
-$loop$: $resume.certificate as $obj
-
-/--- project-head:
-
-/--- project-card-data:
-title: $obj.title
-url: $obj.url
-description: $obj.description
-startdate: $obj.startdate
-enddate: $obj.enddate
-highlights-project: $obj.highlights-project
-$loop$: $resume.projects as $obj
-
-/--- award-head:
-
-/--- award-card-data:
-title: $obj.title
-awarder: $obj.awarder
-summary: $obj.summary
-$loop$: $resume.awards as $obj
-
-/--- publication-head:
-
-/--- publication-card-data:
-title: $obj.title
-publiser: $obj.publiser
-releasedate: $obj.releasedate
-url: $obj.url
-summary: $obj.summary
-$loop$: $resume.publications as $obj
-
-/--- volunteer-head:
-
-/--- volunteer-card-data:
-organization: $obj.organization
-position: $obj.position
-url: $obj.url
-startdate: $obj.startdate
-enddate: $obj.enddate
-summary: $obj.summary
-volunteer-highlights: $obj.volunteer-highlights
-$loop$: $resume.volunteers as $obj
-
-/--- language-head:
-
-/--- language-card-data:
-title: $obj.title
-fluency: $obj.fluency
-$loop$: $resume.languages as $obj
-
-/--- interest-head:
-
-/--- interest-card-data:
-$loop$: $resume.interest as $obj
-
-/--- reference-head:
-
-/--- reference-card-data:
-title: $obj.title
-body: $obj.body
-$loop$: $resume.references as $obj
 
 
 
@@ -486,7 +424,6 @@ $loop$: $resume.references as $obj
 
 
 -- ftd.row profile-card-data:
-/ftd.image-src profile-picture: $assets.files.assests.profile.png
 string candidate-name: $resume.basic.name
 string candidate-label: $resume.basic.label
 string candidate-email-address: $resume.basic.email
@@ -508,12 +445,6 @@ color: $fpm.color.main.text-strong
 text: $candidate-label
 role: $fpm.type.copy-large
 color: $fpm.color.main.text
-
-/--- ftd.image:
-src: $profile-picture
-width: percent 20
-padding-top: $fpm.space.space-6
-padding-left: $fpm.space.space-4
 
 --- ftd.row:
 
@@ -619,6 +550,38 @@ string enddate:
 string list work-highlights: $work-highlights
 width: fill
 
+--- work-card-data-desktop: $title
+if: not $is-mobile
+label: $label
+startdate: $startdate
+enddate: $enddate
+work-highlights: $work-highlights
+
+--- work-card-data-mobile: $title
+if: $is-mobile
+label: $label
+startdate: $startdate
+enddate: $enddate
+work-highlights: $work-highlights
+
+
+
+
+
+
+
+
+
+
+-- ftd.row work-card-data-desktop:
+caption title:
+string label:
+string startdate:
+string enddate:
+string list work-highlights: $work-highlights
+width: fill
+padding-bottom: $fpm.space.space-4
+
 --- ftd.row:
 width: percent 30
 
@@ -631,6 +594,58 @@ role: $fpm.type.copy-tight
 color: $fpm.color.main.text-strong
 
 --- ftd.row:
+padding-bottom: $fpm.space.space-2
+
+--- ftd.text: $startdate
+role: $fpm.type.label-small
+color: $fpm.color.main.text
+
+--- ftd.text: $enddate
+role: $fpm.type.label-small
+color: $fpm.color.main.text
+
+--- container: ftd.main
+
+--- ftd.column:
+padding-left: $fpm.space.space-7
+padding-bottom: $fpm.space.space-4
+
+--- ftd.text: $label
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text-strong
+
+--- ftd.text: $obj
+$loop$: $work-highlights as $obj
+role: $fpm.type.label-small
+color: $fpm.color.main.text
+
+
+
+
+
+
+
+
+
+-- ftd.column work-card-data-mobile:
+caption title:
+string label:
+string startdate:
+string enddate:
+string list work-highlights: $work-highlights
+width: fill
+padding-bottom: $fpm.space.space-4
+
+--- ftd.column: 
+spacing: 8
+padding-left: $fpm.space.space-7
+
+--- ftd.text: $title
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text-strong
+
+--- ftd.row:
+padding-bottom: $fpm.space.space-2
 
 --- ftd.text: $startdate
 role: $fpm.type.label-small
@@ -697,6 +712,42 @@ optional string enddate:
 optional decimal weightage:
 width: fill
 
+--- education-card-data-desktop: $title
+if: not $is-mobile
+institution: $institution
+course: $course
+studytype: $studytype
+startdate: $startdate
+enddate: $enddate
+weightage: $weightage
+
+--- education-card-data-mobile: $title
+if: $is-mobile
+institution: $institution
+course: $course
+studytype: $studytype
+startdate: $startdate
+enddate: $enddate
+weightage: $weightage
+
+
+
+
+
+
+
+
+
+-- ftd.row education-card-data-desktop:
+caption institution:
+string course:
+string studytype:
+optional string startdate:
+optional string enddate:
+optional decimal weightage:
+width: fill
+padding-bottom: $fpm.space.space-4
+
 --- ftd.row:
 width: percent 30
 
@@ -709,6 +760,7 @@ role: $fpm.type.copy-tight
 color: $fpm.color.main.text-strong
 
 --- ftd.row:
+padding-bottom: $fpm.space.space-2
 
 --- ftd.text: $startdate
 role: $fpm.type.label-small
@@ -737,6 +789,61 @@ color: $fpm.color.main.text
 role: $fpm.type.label-small
 color: $fpm.color.main.text
 
+
+
+
+
+
+
+
+
+-- ftd.column education-card-data-mobile:
+caption institution:
+string course:
+string studytype:
+optional string startdate:
+optional string enddate:
+optional decimal weightage:
+width: fill
+padding-bottom: $fpm.space.space-4
+
+--- ftd.column: 
+spacing: 8
+padding-left: $fpm.space.space-7
+
+--- ftd.text: $institution
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text-strong
+
+--- ftd.row:
+padding-bottom: $fpm.space.space-2
+
+--- ftd.text: $startdate
+role: $fpm.type.label-small
+color: $fpm.color.main.text
+
+--- ftd.text: $enddate
+role: $fpm.type.label-small
+color: $fpm.color.main.text
+
+--- container: ftd.main
+
+--- ftd.column:
+padding-left: $fpm.space.space-7
+padding-bottom: $fpm.space.space-4
+spacing: 8
+
+--- ftd.text: $course
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text-strong
+
+--- ftd.text: $studytype
+role: $fpm.type.label-small
+color: $fpm.color.main.text
+
+--- ftd.decimal: $weightage
+role: $fpm.type.label-small
+color: $fpm.color.main.text
 
 
 
@@ -786,439 +893,4 @@ color: $fpm.color.main.text
 
 
 
-
-
-
-
-
-
-
-/-- ftd.column certificate-head:
-string certificate-heading: CERTIFICATES
-padding-left: $fpm.space.space-6
-
---- ftd.text:
-text: $certificate-heading
-role: $fpm.type.heading-medium
-color: $fpm.color.main.text-strong
-
-
-
-
-
-
-
-
-
-
-/-- ftd.column certificate-card-data:
-caption title:
-string issuer:
-string url:
-
---- ftd.column:
-spacing: 8
-padding-left: $fpm.space.space-7
-
---- ftd.text: $title
-role: $fpm.type.heading-small
-color: $fpm.color.main.text
-
---- ftd.text: $issuer
-role: $fpm.type.copy-large
-color: $fpm.color.main.text
-
---- ftd.text: $url
-padding-bottom: $fpm.space.space-3
-color: $fpm.color.main.text
-
-
-
-
-
-
-
-
-
-
-/-- ftd.column project-head:
-string project-heading: PROJECTS
-padding-left: $fpm.space.space-6
-
---- ftd.text:
-text: $project-heading
-role: $fpm.type.heading-medium
-color: $fpm.color.main.text-strong
-
-
-
-
-
-
-
-
-
-/-- ftd.column project-card-data:
-caption title:
-string url:
-body description:
-string list highlights-project: $highlights-project
-optional string startdate:
-optional string enddate:
-string list resume.roles: $resume.roles
-
---- ftd.column:
-spacing: 8
-padding-left: $fpm.space.space-7
-
---- ftd.text: $title
-role: $fpm.type.heading-small
-width: 400
-color: $fpm.color.main.text
-
---- ftd.row:
-
---- ftd.text: $startdate
-role: $fpm.type.label-small
-color: $fpm.color.main.shadow
-
---- ftd.text: $enddate
-role: $fpm.type.label-small
-color: $fpm.color.main.shadow
-
---- ftd.text: $obj
-$loop$: $resume.roles as $obj
-role: $fpm.type.label-big
-padding-left: $fpm.space.space-10
-color: $fpm.color.main.shadow
-
---- container: ftd.main
-
---- ftd.column:
-padding-left: $fpm.space.space-7
-
---- ftd.text: $obj
-$loop$: $highlights-project as $obj
-role: $fpm.type.label-big
-color: $fpm.color.main.text
-
---- ftd.text: $url
-color: $fpm.color.main.text
-
---- ftd.text: $description
-width: 400
-role: $fpm.type.fine-print
-padding-bottom: $fpm.space.space-3
-color: $fpm.color.main.text
-
-
-
-
-
-
-
-
-
-
-/-- ftd.column award-head:
-string award-heading: AWARDS
-padding-left: $fpm.space.space-6
-
---- ftd.text:
-text: $award-heading
-role: $fpm.type.heading-medium
-color: $fpm.color.main.text-strong
-
-
-
-
-
-
-
-
-
-/-- ftd.column award-card-data:
-caption title:
-string awarder:
-body summary:
-
---- ftd.column: 
-spacing: 8
-padding-left: $fpm.space.space-7
-
---- ftd.text: $title
-role: $fpm.type.heading-small
-width: 400
-color: $fpm.color.main.text
-
---- ftd.text: $awarder
-role: $fpm.type.label-big
-color: $fpm.color.main.shadow
-
---- ftd.text: $summary
-width: 400
-role: $fpm.type.fine-print
-padding-bottom: $fpm.space.space-3
-color: $fpm.color.main.text
-
-
-
-
-
-
-
-
-
-
-/-- ftd.column publication-head:
-string publication-heading: PUBLICATIONS
-padding-left: $fpm.space.space-6
-
---- ftd.text:
-text: $publication-heading
-role: $fpm.type.heading-medium
-color: $fpm.color.main.text-strong
-
-
-
-
-
-
-
-
-
-/-- ftd.column publication-card-data:
-caption title:
-string publiser:
-string releasedate:
-string url:
-body summary:
-
---- ftd.column:
-spacing: 8
-padding-left: $fpm.space.space-7
-
---- ftd.text: $title
-role: $fpm.type.heading-small
-color: $fpm.color.main.text
-
---- ftd.text: $publiser
-role: $fpm.type.label-big
-color: $fpm.color.main.text
-
---- ftd.row:
-
---- ftd.text: $releasedate
-color: $fpm.color.main.shadow
-role: $fpm.type.label-small
-
---- container: ftd.main
-
---- ftd.column:
-padding-left: $fpm.space.space-7
-
---- ftd.text: $url
-color: $fpm.color.main.text
-
---- ftd.text: $summary
-width: 400
-role: $fpm.type.fine-print
-padding-bottom: $fpm.space.space-3
-color: $fpm.color.main.text
-
-
-
-
-
-
-
-
-
-
-/-- ftd.column volunteer-head:
-string volunteer-heading: VOLUNTEERS
-padding-left: $fpm.space.space-6
-
---- ftd.text:
-text: $volunteer-heading
-role: $fpm.type.heading-medium
-color: $fpm.color.main.text-strong
-
-
-
-
-
-
-
-
-
-/-- ftd.column volunteer-card-data:
-string organization:
-string position:
-string url:
-string startdate:
-string enddate:
-body summary:
-string list volunteer-highlights: $volunteer-highlights
-
---- ftd.column: 
-padding-left: $fpm.space.space-7
-spacing: 8
-
---- ftd.text: $organization
-role: $fpm.type.heading-medium
-color: $fpm.color.main.text
-
---- ftd.text: $position
-role: $fpm.type.heading-small
-color: $fpm.color.main.text
-
---- ftd.row:
-padding-bottom: $fpm.space.space-2
-
---- ftd.text: $startdate
-role: $fpm.type.label-small
-color: $fpm.color.main.shadow
-
---- ftd.text: $enddate
-role: $fpm.type.label-small
-color: $fpm.color.main.shadow
-
---- container: ftd.main
-
---- ftd.column:
-spacing: 8
-padding-left: $fpm.space.space-7
-
---- ftd.text: $obj
-$loop$: $volunteer-highlights as $obj
-role: $fpm.type.label-big
-color: $fpm.color.main.text
-
---- ftd.text: $url
-padding-bottom: $fpm.space.space-2
-color: $fpm.color.main.text
-
-
-
-
-
-
-
-
-
-/-- ftd.column language-head:
-string language-heading: LANGUAGES
-padding-left: $fpm.space.space-6
-
---- ftd.text:
-text: $language-heading
-role: $fpm.type.heading-medium
-color: $fpm.color.main.text-strong
-
-
-
-
-
-
-
-
-
-/-- ftd.column language-card-data:
-caption title:
-string fluency:
-
---- ftd.row:
-spacing: 8
-padding-left: $fpm.space.space-7
-
---- ftd.text: $title
-role: $fpm.type.label-big
-color: $fpm.color.main.text
-
---- ftd.text: $fluency
-role: $fpm.type.fine-print
-color: $fpm.color.main.shadow
-
-
-
-
-
-
-
-
-
-
-/-- ftd.column interest-head:
-string interest-heading: INTERESTS
-padding-left: $fpm.space.space-6
-
---- ftd.text:
-text: $interest-heading
-role: $fpm.type.heading-medium
-color: $fpm.color.main.text-strong
-
-
-
-
-
-
-
-
-
-/-- ftd.column interest-card-data:
-string list resume.interest: $resume.interest
-
---- ftd.column:
-spacing: 8
-padding-left: $fpm.space.space-7
-
---- ftd.text: $obj
-$loop$: $resume.interest as $obj
-role: $fpm.type.label-big
-color: $fpm.color.main.text
-
-
-
-
-
-
-
-
-
-
-/-- ftd.column reference-head:
-string reference-heading: REFERENCES
-padding-left: $fpm.space.space-6
-
---- ftd.text:
-text: $reference-heading
-role: $fpm.type.heading-medium
-color: $fpm.color.main.text-strong
-
-
-
-
-
-
-
-
-
-/-- ftd.column reference-card-data:
-caption title:
-body body:
-
---- ftd.column:
-spacing: 8
-padding-left: $fpm.space.space-7
-
---- ftd.text: $title
-role: $fpm.type.copy-large
-color: $fpm.color.main.text
-
---- ftd.text: $body
-width: 400
-role: $fpm.type.fine-print
-padding-bottom: $fpm.space.space-3
-color: $fpm.color.main.text
 
