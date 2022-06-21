@@ -414,14 +414,6 @@ $loop$: $resume.skills as $obj
 
 --- container: left-side
 
-/--- data-card: LANGUAGES
-
-/--- language-card-data:
-title: $obj.title
-expertise:  $obj.expertise
-fluency: $obj.fluency
-$loop$: $resume.languages as $obj
-
 --- container: ftd.main
 
 --- ftd.column:
@@ -478,34 +470,6 @@ $loop$: $resume.education as $obj
 
 --- container: about-container
 
-/--- data-card-text: CERTIFICATES
-
-/--- ftd.column:
-width: fill
-padding-vertical: $fpm.space.space-6
-
-/--- certificate-card-data:
-title: $obj.title
-date: $obj.date
-url: $obj.url
-$loop$: $resume.certificate as $obj
-
---- container: about-container
-
-/--- data-card-text: Projects
-
-/--- ftd.column:
-width: fill
-padding-vertical: $fpm.space.space-6
-
-/--- project-card-data:
-title: $obj.title
-url: $obj.url
-description: $obj.description
-startdate: $obj.startdate
-enddate: $obj.enddate
-highlights-project: $obj.highlights-project
-$loop$: $resume.projects as $obj
 
 
 
@@ -550,14 +514,6 @@ candidate-phone-no: $resume.basic.phone-no
 name: $obj.name
 expertise: $obj.expertise
 $loop$: $resume.skills as $obj
-
-/--- data-card: LANGUAGES
-
-/--- language-card-data:
-title: $obj.title
-expertise:  $obj.expertise
-fluency: $obj.fluency
-$loop$: $resume.languages as $obj
 
 --- container: ftd.main
 
@@ -610,34 +566,10 @@ $loop$: $resume.education as $obj
 
 --- container: about-container
 
-/--- data-card-text: CERTIFICATES
-
 --- ftd.column:
 width: fill
 padding-vertical: $fpm.space.space-6
 
-/--- certificate-card-data:
-title: $obj.title
-date: $obj.date
-url: $obj.url
-$loop$: $resume.certificate as $obj
-
---- container: about-container
-
-/--- data-card-text: Projects
-
---- ftd.column:
-width: fill
-padding-vertical: $fpm.space.space-6
-
-/--- project-card-data:
-title: $obj.title
-url: $obj.url
-description: $obj.description
-startdate: $obj.startdate
-enddate: $obj.enddate
-highlights-project: $obj.highlights-project
-$loop$: $resume.projects as $obj
 
 
 
@@ -1105,38 +1037,6 @@ margin-left: $fpm.space.space-2
 
 
 
-/-- ftd.row certificate-card-data:
-caption title:
-optional string issuer:
-string url:
-optional string date: 
-optional body body:
-width: fill
-spacing: 8
-margin-bottom: $fpm.space.space-6
-
---- ftd.text: $date
-if: $date is not null
-role: $fpm.type.fine-print
-color: $fpm.color.main.text
-width: percent 25
-
---- container: ftd.main
-
---- ftd.text: $title
-link: $url
-role: $copy-tight-bold
-color: $fpm.color.main.text-strong
-width: fill
-
-
-
-
-
-
-
-
-
 
 -- ftd.column basic-card-data:
 optional ftd.image-src email-icon: $assets.files.assests.email-icon.png
@@ -1333,44 +1233,6 @@ color: $fpm.color.main.custom.two
 
 
 
-/-- ftd.row language-card-data:
-caption title:
-string fluency:
-optional string expertise:
-width: fill
-padding-horizontal: $fpm.space.space-4
-margin-bottom: $fpm.space.space-2
-
---- ftd.text: $title
-role: $font-12
-width: fill
-color: $fpm.color.main.text-strong
-
---- ftd.column:
-id: switch-container
-width: fill
-
---- ftd.row:
-width: fill
-if: $expertise is not null
-
---- show-star: $expertise
-
---- container: switch-container
-
---- ftd.text: $fluency
-width: fill
-role: $font-12
-text-align: left
-margin-top: $fpm.space.space-1
-color: $fpm.color.main.text
-
-
-
-
-
-
-
 
 
 
@@ -1425,164 +1287,3 @@ padding-vertical: $fpm.space.space-6
 
 
 
-
-
-
-/-- ftd.row project-card-data:
-caption title:
-string url:
-body description:
-string list highlights-project: $highlights-project
-optional string startdate:
-optional string enddate:
-string list resume.roles: $resume.roles
-color: $fpm.color.main.text
-spacing: 8
-
---- project-card-data-desktop: $title
-if: not $is-mobile
-url: $url
-description: $description
-highlights-project: $highlights-project
-startdate: $startdate
-enddate: $enddate
-
---- project-card-data-mobile: $title
-if: $is-mobile
-url: $url
-description: $description
-highlights-project: $highlights-project
-startdate: $startdate
-enddate: $enddate
-
-
-
-
-
-
-
-
-
-
-/-- ftd.row project-card-data-desktop:
-caption title:
-string url:
-body description:
-string list highlights-project: $highlights-project
-optional string startdate:
-optional string enddate:
-string list resume.roles: $resume.roles
-color: $fpm.color.main.text
-spacing: 8
-
---- ftd.column:
-width: percent 25
-
---- ftd.row:
-spacing: 8
-
---- ftd.text: $startdate
-role: $fpm.type.fine-print
-
---- ftd.text: ~
-role: $fpm.type.fine-print
-
---- ftd.text: $enddate
-role: $fpm.type.fine-print
-
---- container: ftd.main
-
---- ftd.column: 
-spacing: 16
-id: switch-container
-width: fill
-
---- ftd.text: $title
-role: $copy-tight-bold
-color: $fpm.color.main.text-strong
-
---- ftd.row:
-width: fill
-
---- ftd.text: $title
-link: $url
-role: $fpm.type.copy-tight
-color: $fpm.color.main.text
-
---- container: switch-container
-
---- work-hightlights: 
-title: $obj
-$loop$: $highlights-project as $obj
-
---- ftd.text: $description
-width:fill
-role: $fpm.type.fine-print
-padding-bottom: $fpm.space.space-5
-color: $fpm.color.main.text
-
-
-
-
-
-
-
-
-
-
-/-- ftd.column project-card-data-mobile:
-caption title:
-string url:
-body description:
-string list highlights-project: $highlights-project
-optional string startdate:
-optional string enddate:
-string list resume.roles: $resume.roles
-color: $fpm.color.main.text
-spacing: 8
-
---- ftd.column:
-width: fill
-
---- ftd.row:
-spacing: 8
-
---- ftd.text: $startdate
-role: $fpm.type.fine-print
-
---- ftd.text: ~
-role: $fpm.type.fine-print
-
---- ftd.text: $enddate
-role: $fpm.type.fine-print
-
---- container: ftd.main
-
---- ftd.column: 
-spacing: 16
-id: switch-container
-width: fill
-
---- ftd.text: $title
-role: $copy-tight-bold
-color: $fpm.color.main.text-strong
-
---- ftd.row:
-width: fill
-
---- ftd.text: $title
-link: $url
-role: $fpm.type.copy-tight
-color: $fpm.color.main.text
-
---- container: switch-container
-
---- work-hightlights: 
-title: $obj
-$loop$: $highlights-project as $obj
-
---- ftd.text: $description
-width:fill
-role: $fpm.type.fine-print
-padding-bottom: $fpm.space.space-5
-color: $fpm.color.main.text
