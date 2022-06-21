@@ -112,7 +112,162 @@ files:
 
 
 
--- cb.code: Example code for `-- my-resume`
+-- cb.code: Add below line into your `.ftd` file
+lang: ftd
+
+\-- import: fifthtry.github.io/resume/resume as resume
+
+
+
+
+
+-- doc.hidden-code: How to add your details to use `-- myresume`
+
+
+\-- resume.profile: https://domain.com/xvy
+
+\-- resume.profile: https://domain.com/abc
+
+\-- resume.basic.name: your name
+
+\-- resume.basic.label: your label
+
+\-- resume.basic.email: email@example.com
+
+\-- resume.basic.phone-no: +91 4598955165
+
+\-- resume.basic.marital-status: Single
+
+\-- resume.basic.linked-in: abc.linked-in
+
+\-- resume.basic.date-of-birth: 06/09/1993
+
+\-- resume.basic.linked-in-url: linkedin/in/your.name
+
+\-- resume.basic.url: /
+
+\-- resume.basic.image: 
+light: $assets.files.assests.profile-image.png.light
+dark: $assets.files.assests.profile-image.png.dark
+
+\-- resume.basic.location.city: Delhi
+
+\-- resume.basic.location.state: Delhi
+
+\-- resume.basic.location.country: India
+
+\-- resume.basic.profile: $profile
+
+\-- resume.languages: English
+fluency: Intermediate
+expertise: advance
+
+\-- resume.languages: Hindi
+fluency: Mother tongue
+expertise: expert
+
+\-- resume.skills: xyz
+name: HTML
+expertise: beginner
+
+\-- resume.skills: abc
+name: JavaScript
+expertise: expert
+
+\-- resume.basic.summary:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut
+
+\-- resume.works: ABCD software PVT LTD
+label: Senior Web Developer
+location: india
+url: /
+startdate: 08/2019 
+enddate: present
+work-highlights: Web Development using Django
+work-highlights: Front-end web development
+work-highlights: FTD developer 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut
+
+\-- resume.works: XYZ software PVT LTD
+label: Web Developer
+location: india
+url: /
+startdate: 08/2018 
+enddate:  08/2019
+work-highlights: Web Development using Django
+work-highlights: Front-end web development
+work-highlights: FTD developer 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut
+
+\-- resume.education: ABCD College of Engineering
+url: /
+course: B.Tech in Computer Science & Engineering 
+studytype: Graduation
+startdate: 08/2019 
+enddate:  08/2014
+weightage: 99
+location: Mumbai
+specialist: vxy
+
+\-- resume.education: ABCD SCHOOL
+url: /
+course: Higher Secondary
+studytype: Study
+startdate: 08/2014 
+enddate:  08/2012
+weightage: 99
+location: Mumbai
+
+\-- resume.certificate: Certified Scrum Master
+issuer: xyz
+url: /
+date: 12-2014
+
+\-- resume.certificate: Microsoft Certified Software Developer
+issuer: xyz
+url: /
+date: 12-2015
+
+\-- resume.projects: Facial expression recognisation on video call using Machine Learning
+url: /
+startdate: 7/2018
+enddate:  8/2019
+roles: $roles
+highlights-project: Some highlights
+highlights-project: More highlights
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+\-- resume.projects: Developed a complete e-commerse website
+url: /
+startdate: 7/2017 
+enddate:  10/2017
+roles: $roles
+highlights-project: Some highlights
+highlights-project: More highlights
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut
+
+
+
+
+
+
+
+
+-- cb.code: Example code to use `-- my-resume`
 lang: ftd
 
 \-- my-resume.my-resume: 

@@ -57,11 +57,11 @@ optional string expertise:
 -- language-data list languages:
 
 -- languages: English
-fluency: Fluent
-expertise: expert
+fluency: Intermediate
+expertise: advance
 
 -- languages: Hindi
-fluency: Fluent
+fluency: Mother tongue
 expertise: expert
 
 

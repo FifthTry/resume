@@ -5,45 +5,6 @@
 
 
 
--- resume.projects: Facial expression recognisation on video call using Machine Learning
-url: /
-startdate: 7/2018
-enddate:  8/2019
-roles: $roles
-highlights-project: Some highlights
-highlights-project: More highlights
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-nostrud exercitation ullamco laboris nisi ut 
-
--- resume.projects: Developed a complete e-commerse website
-url: /
-startdate: 7/2017 
-enddate:  10/2017
-roles: $roles
-highlights-project: Some highlights
-highlights-project: More highlights
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-nostrud exercitation ullamco laboris nisi ut 
-
--- resume.projects: Heart disease prediction
-url: /
-startdate: 7/2016 
-enddate:  8/2017
-roles: $roles
-highlights-project: Some highlights
-highlights-project: More highlights
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-nostrud exercitation ullamco laboris nisi ut 
-
-
-
-
 
 -- resume.profile: https://domain.com/xvy
 
@@ -78,14 +39,6 @@ dark: $assets.files.assests.profile-image.png.dark
 -- resume.basic.location.country: India
 
 -- resume.basic.profile: $profile
-
--- resume.basic.summary:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 
@@ -139,20 +92,14 @@ expertise: ovice
 
 
 
--- resume.certificate: Certified Scrum Master
-issuer: xyz
-url: /
-date: 12-2014
 
--- resume.certificate: Microsoft Certified Software Developer
-issuer: xyz
-url: /
-date: 12-2015
-
--- resume.certificate: Certified Secure Software Lifecyle Professional
-issuer: xyz
-url: /
-date: 12-2016
+-- resume.basic.summary:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 
@@ -231,6 +178,66 @@ startdate: 08/2012
 enddate:  08/2010
 weightage: 99
 location: Mumbai
+
+
+
+
+-- resume.certificate: Certified Scrum Master
+issuer: xyz
+url: /
+date: 12-2014
+
+-- resume.certificate: Microsoft Certified Software Developer
+issuer: xyz
+url: /
+date: 12-2015
+
+-- resume.certificate: Certified Secure Software Lifecyle Professional
+issuer: xyz
+url: /
+date: 12-2016
+
+
+
+
+
+-- resume.projects: Facial expression recognisation on video call using Machine Learning
+url: /
+startdate: 7/2018
+enddate:  8/2019
+roles: $roles
+highlights-project: Some highlights
+highlights-project: More highlights
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+-- resume.projects: Developed a complete e-commerse website
+url: /
+startdate: 7/2017 
+enddate:  10/2017
+roles: $roles
+highlights-project: Some highlights
+highlights-project: More highlights
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+-- resume.projects: Heart disease prediction
+url: /
+startdate: 7/2016 
+enddate:  8/2017
+roles: $roles
+highlights-project: Some highlights
+highlights-project: More highlights
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+
 
 
 
