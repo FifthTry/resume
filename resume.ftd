@@ -9,6 +9,9 @@
 
 -- string list interest:
 
+-- interest: music
+-- interest: cooking
+-- interest: dancing
 
 
 
@@ -70,9 +73,30 @@ expertise: expert
 
 -- record reference-data:
 caption title:
-body body:
+optional string phone-no:
+optional string email-id:
+optional string position:
+optional string company:
+optional body body:
 
 -- reference-data list references:
+
+
+-- references: Ankit
+phone-no: +9166777777778
+email-id: email@example. com
+position: Senior Web Developer
+company: ABCD software PVT LTD
+
+
+vbnm,.
+
+-- references: Rohan
+phone-no: +9166777777778
+email-id: email@example. com
+position: Senior Web Developer
+company: XYZ software PVT LTD
+fghjkl
 
 
 
@@ -268,11 +292,15 @@ nostrud exercitation ullamco laboris nisi ut
 -- record award-data:
 caption title:
 string awarder:
-body summary:
+optional body summary:
 
 -- award-data list awards:
 
+-- awards: web design created
+awarder: Rohan
 
+-- awards: web inrefaces
+awarder: Rohan
 
 
 
@@ -301,7 +329,7 @@ body summary:
 string url:
 optional address-data location:
 optional ftd.image-src image:
-string list profile:
+string list profile: 
 optional string linked-in:
 optional string linked-in-url:
 optional string marital-status:
@@ -336,7 +364,7 @@ email: email@example. com
 phone-no: +91 4598955165
 url: /
 location: $location
-profile: $profile
+profile: your profiles
 linked-in: linkedin.com/in/your.name
 linked-in-url: https://www.linkedin.com/
 marital-status: Married
