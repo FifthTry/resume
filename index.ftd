@@ -88,7 +88,44 @@ weight: 700
 
 -- ft.page: Resume Template
 
+We have designed this creative resume template via using `FTD` language for you. 
+This resume template is a perfect balance of graphics and whitespace.
+
+-- doc.package: Resume and it's Usage
+name: fifthtry.github.io/resume
+
+To use `resume` on your web package, add below into `FPM.ftd` file:
+
+-- cb.code:
+lang: ftd
+
+\-- fpm.dependency: fifthtry.github.io/resume
+\-- fpm.auto-import: fifthtry.github.io/resume
+
+
+-- tf.markdown:
+
+Once you add above lines into your web package, add resume into your `.ftd` 
+files:
+
+
+
+
+
+-- cb.code: Example code for `-- my-resume`
+lang: ftd
+
+\-- my-resume.my-resume: 
+
+
+
+
+
+-- tf.h3: Output of above:
+
+
 --- my-resume:
+
 
 
 
