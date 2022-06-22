@@ -366,6 +366,10 @@ nostrud exercitation ullamco laboris nisi ut
 align: center
 background-color: $fpm.color.main.background.base
 padding-vertical: $fpm.space.space-8
+width: auto
+max-width: 1200
+margin-top: $fpm.space.space-4
+margin-bottom: $fpm.space.space-4
 
 
 
@@ -499,6 +503,7 @@ color: $fpm.color.main.text-strong
 background-color: $fpm.color.main.background.step-2
 width: fill
 padding-left: $fpm.space.space-4
+padding-vertical: $fpm.space.space-4
 
 --- ftd.text:
 text: $candidate-profile-summary
