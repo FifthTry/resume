@@ -1327,6 +1327,10 @@ width: fill
 border-color: $fpm.color.main.text
 color: $fpm.color.main.text
 role: $copy-large-bold
+margin-top: $fpm.space.space-7
+margin-bottom: $fpm.space.space-3
+margin-bottom if $is-mobile: $fpm.space.space-2
+margin-top if not $is-mobile: $fpm.space.space-9
 
 
 

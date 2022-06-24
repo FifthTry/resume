@@ -2,6 +2,11 @@
 -- import: fifthtry.github.io/resume/assets
 -- import: fifthtry.github.io/resume/resume as resume
 
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
+
 -- ftd.color header-bg:
 light:rgba(0, 0, 0, 0.5)
 dark: rgba(0, 0, 0, 0.5)
@@ -16,12 +21,6 @@ desktop: $rating-font-desktop
 mobile: $rating-font-desktop
 xl: $rating-font-desktop
 weight: 400
-
-
--- boolean is-mobile: false
-
--- is-mobile: true
-if: $ftd.device == mobile
 
 -- ftd.font-size font-12-desktop:
 line-height: 18
@@ -60,273 +59,9 @@ weight: 700
 
 
 
-
-
-
-
--- resume.profile: https://domain.com/xvy
-
--- resume.profile: https://domain.com/abc
-
--- resume.basic.name: Priyanka Yadav
-
--- resume.basic.label: FTD Developer
-
--- resume.basic.email: priyanka@emal
-
--- resume.basic.phone-no: +91 4598955165
-
--- resume.basic.marital-status: Single
-
--- resume.basic.linked-in: abc.linked-in
-
--- resume.basic.date-of-birth: 10/11/1000
-
--- resume.basic.linked-in-url: bdcjnc@linkedin.com
-
--- resume.basic.url: /
-
--- resume.basic.image: 
-light: $assets.files.assests.profile-image.png.light
-dark: $assets.files.assests.profile-image.png.dark
-
--- resume.basic.location.city: Delhi
-
--- resume.basic.location.state: Delhi
-
--- resume.basic.location.country: India
-
--- resume.basic.profile: $profile
-
-
-
-
-
--- resume.languages: Bengali
-fluency: Intermediate
-expertise: advance
-
--- resume.languages: Japanese
-fluency: Beginner
-expertise: beginner
-
--- resume.languages: Dutch
-fluency: Learner
-expertise: ovice
-
--- resume.languages: Oriya
-fluency: Mother tongue
-expertise: expert
-
-
-
-
-
--- resume.skills:
-name: Teamwork
-expertise: ovice
-
--- resume.skills: 
-name: Problem Solving
-expertise: advance
-
--- resume.skills: 
-name: Critical thinking
-expertise: beginner
-
--- resume.skills: 
-name: Oracle
-expertise: expert
-
--- resume.skills: 
-name: Python
-expertise: advance
-
--- resume.skills: 
-name: Java
-expertise: ovice
-
-
-
-
-
-
--- resume.basic.summary:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-
-
-
--- resume.works: ABCD software PVT LTD
-label: Senior Web Developer
-location: india
-url: /
-startdate: 08/2019 
-enddate: present
-work-highlights: Web Development using Django
-work-highlights: Front-end web development
-work-highlights: FTD developer 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-nostrud exercitation ullamco laboris nisi ut
-
--- resume.works: XYZ software PVT LTD
-label: Web Developer
-location: india
-url: /
-startdate: 08/2018 
-enddate:  08/2019
-work-highlights: Web Development using Django
-work-highlights: Front-end web development
-work-highlights: FTD developer 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-nostrud exercitation ullamco laboris nisi ut
-
--- resume.works: HJJ software PVT LTD
-label: Junior Web Developer
-location: india
-url: /
-startdate: 08/2017 
-enddate:  08/2018
-work-highlights: Web Development using Django
-work-highlights: Front-end web development
-work-highlights: FTD developer 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-nostrud exercitation ullamco laboris nisi ut
-
-
-
-
-
-
-
-
-
-
--- resume.education: ABCD College of Engineering
-url: /
-course: B.Tech in Computer Science & Engineering 
-studytype: Graduation
-startdate: 08/2019 
-enddate:  08/2014
-weightage: 99
-location: Mumbai
-specialist: vxy
-
--- resume.education: ABCD SCHOOL
-url: /
-course: Higher Secondary
-studytype: Study
-startdate: 08/2014 
-enddate:  08/2012
-weightage: 99
-location: Mumbai
-
--- resume.education: ABCD SCHOOL
-url: /
-course: Secondary
-studytype: Study
-startdate: 08/2012 
-enddate:  08/2010
-weightage: 99
-location: Mumbai
-
-
-
-
-
-
-
-
-
-
--- resume.certificate: Certified Scrum Master
-issuer: xyz
-url: /
-date: 12-2014
-
--- resume.certificate: Microsoft Certified Software Developer
-issuer: xyz
-url: /
-date: 12-2015
-
--- resume.certificate: Certified Secure Software Lifecyle Professional
-issuer: xyz
-url: /
-date: 12-2016
-
-
-
-
-
-
-
-
-
--- resume.projects: Facial expression recognisation on video call using Machine Learning
-url: /
-startdate: 7/2018
-enddate:  8/2019
-roles: $roles
-highlights-project: Some highlights
-highlights-project: More highlights
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-nostrud exercitation ullamco laboris nisi ut 
-
--- resume.projects: Developed a complete e-commerse website
-url: /
-startdate: 7/2017 
-enddate:  10/2017
-roles: $roles
-highlights-project: Some highlights
-highlights-project: More highlights
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-nostrud exercitation ullamco laboris nisi ut 
-
--- resume.projects: Heart disease prediction
-url: /
-startdate: 7/2016 
-enddate:  8/2017
-roles: $roles
-highlights-project: Some highlights
-highlights-project: More highlights
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-nostrud exercitation ullamco laboris nisi ut 
-
-
-
-
-
-
-
-
-
-
-
--- ft.page: Resume Template
-
-
+-- ft.page: 
 
 --- my-resume:
-
-
 
 
 
@@ -388,10 +123,7 @@ candidate-label: $resume.basic.label
 
 --- ftd.column:
 width: fill
-padding-top: 24
 padding-horizontal: $fpm.space.space-7
-
-
 
 --- heading: CONTACT
 
@@ -410,13 +142,9 @@ date-of-birth: $resume.basic.date-of-birth
 
 --- ftd.column:
 width: fill
-padding-top: 24
 padding-horizontal: $fpm.space.space-7
 
-
-
 --- heading: Skills
-
 
 --- skills-card-data:
 name: $obj.name
@@ -430,8 +158,7 @@ $loop$: $resume.skills as $obj
 --- ftd.column:
 id: about-container
 width: percent 75
-padding-horizontal: $fpm.space.space-4
-padding-vertical: $fpm.space.space-4
+padding-horizontal: $fpm.space.space-6
 padding-bottom: $fpm.space.space-15
 border-right: 1
 border-top: 1
@@ -447,7 +174,8 @@ summary: $resume.basic.summary
 
 --- ftd.column:
 width: fill
-padding-vertical: $fpm.space.space-6
+padding-left: $fpm.space.space-7
+spacing: 12
 
 --- work-card-data:
 title: $obj.title
@@ -465,7 +193,7 @@ $loop$: $resume.works as $obj
 
 --- ftd.column:
 width: fill
-padding-vertical: $fpm.space.space-6
+padding-left: $fpm.space.space-7
 
 --- education-card-data:
 institution: $obj.institution
@@ -481,8 +209,22 @@ $loop$: $resume.education as $obj
 
 --- container: about-container
 
+--- data-card-text: Project
+--- ftd.column:
+width: fill
+padding-left: $fpm.space.space-7
 
 
+
+
+--- project-card-data:
+title: $obj.title
+url: $obj.url
+description: $obj.description
+startdate: $obj.startdate
+enddate: $obj.enddate
+highlights-project: $obj.highlights-project
+$loop$: $resume.projects as $obj
 
 
 
@@ -499,6 +241,7 @@ id: left-side
 background-color: $fpm.color.main.background.step-2
 width: fill
 padding-vertical: $fpm.space.space-6
+padding-bottom: $fpm.space.space-9
 height: fill
 
 --- profile-card-data:
@@ -508,8 +251,8 @@ candidate-label: $resume.basic.label
 
 --- ftd.column:
 width: fill
-margin-top: $fpm.space.space-4
 padding-horizontal: $fpm.space.space-7
+
 
 --- heading: CONTACT
 
@@ -528,7 +271,6 @@ date-of-birth: $resume.basic.date-of-birth
 
 --- ftd.column:
 width: fill
-margin-top: $fpm.space.space-4
 padding-horizontal: $fpm.space.space-7
 
 --- heading:  SKILLS
@@ -556,7 +298,7 @@ summary: $resume.basic.summary
 
 --- ftd.column:
 width: fill
-padding-vertical: $fpm.space.space-6
+
 
 --- work-card-data:
 title: $obj.title
@@ -574,7 +316,7 @@ $loop$: $resume.works as $obj
 
 --- ftd.column:
 width: fill
-padding-vertical: $fpm.space.space-6
+
 
 --- education-card-data:
 institution: $obj.institution
@@ -589,11 +331,23 @@ $loop$: $resume.education as $obj
 
 --- container: about-container
 
+
+--- data-card-text: Project
 --- ftd.column:
 width: fill
-padding-vertical: $fpm.space.space-6
 
 
+
+
+
+--- project-card-data:
+title: $obj.title
+url: $obj.url
+description: $obj.description
+startdate: $obj.startdate
+enddate: $obj.enddate
+highlights-project: $obj.highlights-project
+$loop$: $resume.projects as $obj
 
 
 
@@ -625,7 +379,6 @@ height: percent 65
 min-height: 180
 width: fill
 
-
 --- container: image-container
 
 --- ftd.column:
@@ -633,7 +386,6 @@ background-color: $header-bg
 width: fill
 height: percent 35
 padding-vertical: 14
- 
 
 --- ftd.text: $candidate-name
 if: $candidate-name is not null
@@ -655,7 +407,7 @@ width: fill
 text: $summary
 role: $fpm.type.label-small
 color: $fpm.color.main.text
-padding-vertical: $fpm.space.space-4
+padding-left if not $is-mobile: $fpm.space.space-7
 
 
 
@@ -715,7 +467,6 @@ body summary:
 width: fill
 color: $fpm.color.main.text
 spacing: 8
-padding-bottom: $fpm.space.space-6
 
 --- ftd.column:
 width: percent 25
@@ -742,23 +493,23 @@ width: fill
 
 --- ftd.text: $label
 role: $copy-tight-bold
-color: $fpm.color.main.text-strong
+color: $fpm.color.main.text
 
 --- ftd.row:
 width: fill
 
 --- ftd.text: $title
 role: $fpm.type.copy-tight
-color: $fpm.color.main.text-strong
+color: $fpm.color.main.text
 
 --- ftd.text:,
 role: $fpm.type.copy-tight
-color: $fpm.color.main.text-strong
+color: $fpm.color.main.text
 
 --- ftd.text: $location
 role: $fpm.type.copy-tight
 margin-left: $fpm.space.space-3
-color: $fpm.color.main.text-strong
+color: $fpm.color.main.text
 
 --- container: switch-container
 
@@ -766,8 +517,6 @@ color: $fpm.color.main.text-strong
 width:fill
 role: $fpm.type.fine-print
 color: $fpm.color.main.text
-padding-left: $fpm.space.space-5
-padding-bottom: $fpm.space.space-5
 
 
 
@@ -788,8 +537,6 @@ string enddate:
 body summary:
 width: fill
 color: $fpm.color.main.text
-margin-bottom: $fpm.space.space-4
-padding-bottom: $fpm.space.space-6
 spacing: 8
 
 --- ftd.row:
@@ -813,7 +560,7 @@ width: fill
 
 --- ftd.text: $label
 role: $copy-tight-bold
-color: $fpm.color.main.text-strong
+color: $fpm.color.main.text
 
 --- ftd.row:
 width: fill
@@ -934,7 +681,7 @@ spacing: 8
 
 --- ftd.text: $course
 role: $copy-tight-bold
-color: $fpm.color.main.text-strong
+color: $fpm.color.main.text
 
 --- ftd.row:
 spacing: 8
@@ -997,7 +744,6 @@ width: fill
 color: $fpm.color.main.text
 margin-bottom: $fpm.space.space-4
 
-
 --- ftd.column:
 width: fill
 id: education-container
@@ -1005,7 +751,7 @@ spacing: 8
 
 --- ftd.text: $course
 role: $copy-tight-bold
-color: $fpm.color.main.text-strong
+color: $fpm.color.main.text
 
 --- ftd.row:
 
@@ -1075,7 +821,6 @@ margin-left: $fpm.space.space-2
 
 
 
-
 -- ftd.column basic-card-data:
 optional ftd.image-src email-icon: $assets.files.assests.phone-icon.png
 optional ftd.image-src phone-icon: $assets.files.assests.phone-icon.png
@@ -1099,13 +844,12 @@ spacing: 8
 --- ftd.row:
 width: fill
 id: image-container
-spacing: 24
+spacing: 12
 margin-bottom: $fpm.space.space-2
-
 
 --- ftd.text: 📍
 color: $fpm.color.main.text
-role: $fpm.type.fine-print
+role: $font-12
 width: 30
 min-width: 30
 
@@ -1118,17 +862,15 @@ spacing: 4
 
 --- ftd.text: $candidate-address-city
 color: $fpm.color.main.text
-role: $fpm.type.fine-print
-
+role: $font-12
 
 --- ftd.text: $candidate-address-state
 color: $fpm.color.main.text
-role: $fpm.type.fine-print
-
+role: $font-12
 
 --- ftd.text: $candidate-address-country
 color: $fpm.color.main.text
-role: $fpm.type.fine-print
+role: $font-12
 
 --- container: ftd.main
 
@@ -1138,7 +880,6 @@ icon: 📩
 --- image-text: $candidate-phone-no
 icon: 📞
 
-
 --- image-text: $marital-status
 icon: 👨‍👧
 
@@ -1146,7 +887,7 @@ icon: 👨‍👧
 icon: 🗓
 
 --- ftd.row:
-spacing: 24
+spacing: 12
 id: image-container
 
 --- ftd.row:
@@ -1154,7 +895,7 @@ width: 30
 
 --- ftd.image:
 src: $linkedin-icon
-width: 18
+width: 14
 height: auto
 
 --- container: image-container
@@ -1162,9 +903,9 @@ height: auto
 --- ftd.text: $candidate-linked-in
 link: $candidate-linked-in-url
 color: $fpm.color.main.text
-role: $fpm.type.fine-print
-
-
+role: $font-12
+white-space: wrap
+width: fill
 
 
 
@@ -1177,18 +918,24 @@ role: $fpm.type.fine-print
 -- ftd.row image-text:
 string icon:
 caption title:
-spacing: 24
+spacing: 12
 width: fill
 margin-bottom: $fpm.space.space-2
 
 --- ftd.text: $icon
 color: $fpm.color.main.text
-role: $fpm.type.fine-print
+role: $font-12
 width: 30
 
 --- ftd.text: $title
 color: $fpm.color.main.text
-role: $fpm.type.fine-print
+role: $font-12
+
+
+
+
+
+
 
 
 
@@ -1206,7 +953,7 @@ margin-bottom: $fpm.space.space-3
 --- ftd.text: $name
 width: fill
 role: $font-12
-color: $fpm.color.main.text-strong
+color: $fpm.color.main.text
 
 --- container: language-container
 
@@ -1215,6 +962,12 @@ width: percent 70
 align: left
 
 --- progress-bar: $expertise
+
+
+
+
+
+
 
 
 
@@ -1231,6 +984,7 @@ if: $expertise == ovice
 min-height: 12
 margin-top: -1
 margin-bottom: -1
+margin-left: -1
 width: percent 10
 background-color:  $fpm.color.main.text-strong
 spacing: 4
@@ -1241,10 +995,7 @@ role: $rating-font
 color: $fpm.color.main.text-strong
 margin-left: $fpm.space.space-4
 
-
-
 --- container: ftd.main
-
 
 --- ftd.row:
 if: $expertise == beginner
@@ -1252,6 +1003,7 @@ min-height: 12
 width: percent 25
 margin-top: -1
 margin-bottom: -1
+margin-left: -1
 background-color: $fpm.color.main.text-strong
 spacing: 4
 
@@ -1262,10 +1014,7 @@ color: $fpm.color.main.text-strong
 margin-left: $fpm.space.space-7
 align: center
 
-
-
 --- container: ftd.main
-
 
 --- ftd.row:
 if: $expertise == advance
@@ -1273,6 +1022,7 @@ min-height: 12
 width: percent 50
 margin-top: -1
 margin-bottom: -1
+margin-left: -1
 background-color: $fpm.color.main.text-strong
 spacing: 4
 
@@ -1282,12 +1032,7 @@ role: $rating-font
 color: $fpm.color.main.text-strong
 margin-left: $fpm.space.space-10
 
-
-
-
-
 --- container: ftd.main
-
 
 --- ftd.row:
 if: $expertise == competent
@@ -1295,6 +1040,7 @@ min-height: 12
 width: percent 75
 margin-top: -1
 margin-bottom: -1
+margin-left: -1
 background-color: $fpm.color.main.text-strong
 spacing: 4
 
@@ -1333,9 +1079,6 @@ margin-left: $fpm.space.space-12
 
 
 
-
-
-
 -- ftd.text data-card: $title
 caption title:
 padding-vertical: $fpm.space.space-2
@@ -1356,16 +1099,17 @@ background-color: $fpm.color.main.border
 
 -- ftd.row data-card-text: 
 caption title:
-padding-vertical: $fpm.space.space-2
-margin-top: $fpm.space.space-8
+padding-vertical: $fpm.space.space-6
 width: fill
-
+margin-top: $fpm.space.space-7
+margin-top if not $is-mobile: $fpm.space.space-9
+margin-bottom: $fpm.space.space-7
 
 --- ftd.row:
 anchor: parent
-width: percent 8
+width: 32
 border-color: $fpm.color.main.text-strong
-top: 36
+top: 52
 left: 0
 border-bottom: 2
 
@@ -1402,8 +1146,198 @@ padding-vertical: $fpm.space.space-6
 
 
 
+
+
 -- ftd.text heading: $title
 caption title:
 role: $copy-tight-bold
 color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
+margin-bottom: $fpm.space.space-7
+margin-top: $fpm.space.space-7
+margin-top if not $is-mobile: $fpm.space.space-9
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- ftd.row project-card-data:
+caption title:
+string url:
+body description:
+string list highlights-project: $highlights-project
+optional string startdate:
+optional string enddate:
+string list resume.roles: $resume.roles
+color: $fpm.color.main.text
+
+
+--- project-card-data-desktop: $title
+if: not $is-mobile
+url: $url
+description: $description
+highlights-project: $highlights-project
+startdate: $startdate
+enddate: $enddate
+
+--- project-card-data-mobile: $title
+if: $is-mobile
+url: $url
+description: $description
+highlights-project: $highlights-project
+startdate: $startdate
+enddate: $enddate
+
+
+
+
+
+
+
+
+
+
+-- ftd.column project-card-data-desktop:
+caption title:
+string url:
+body description:
+string list highlights-project: $highlights-project
+optional string startdate:
+optional string enddate:
+string list resume.roles: $resume.roles
+color: $fpm.color.main.text
+
+
+
+
+
+--- ftd.text: $title
+role: $copy-tight-bold
+color: $fpm.color.main.text
+margin-bottom: $fpm.space.space-3
+
+
+--- ftd.row:
+spacing: 8
+margin-bottom: $fpm.space.space-3
+
+--- ftd.text: $startdate
+role: $fpm.type.fine-print
+
+--- ftd.text: ~
+role: $fpm.type.fine-print
+
+--- ftd.text: $enddate
+role: $fpm.type.fine-print
+
+--- container: ftd.main
+
+--- ftd.column: 
+spacing: 16
+id: switch-container
+width: fill
+margin-bottom: $fpm.space.space-3
+
+--- ftd.row:
+width: fill
+
+--- ftd.text: $title
+link: $url
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text
+
+--- container: switch-container
+
+--- work-hightlights: 
+title: $obj
+$loop$: $highlights-project as $obj
+
+--- ftd.text: $description
+width:fill
+role: $fpm.type.fine-print
+padding-bottom: $fpm.space.space-5
+color: $fpm.color.main.text
+margin-bottom: $fpm.space.space-3
+
+
+
+
+
+
+
+
+
+
+-- ftd.column project-card-data-mobile:
+caption title:
+string url:
+body description:
+string list highlights-project: $highlights-project
+optional string startdate:
+optional string enddate:
+string list resume.roles: $resume.roles
+color: $fpm.color.main.text
+spacing: 12
+
+--- ftd.column:
+width: fill
+
+--- ftd.row:
+spacing: 8
+
+--- ftd.text: $startdate
+role: $fpm.type.fine-print
+
+--- ftd.text: ~
+role: $fpm.type.fine-print
+
+--- ftd.text: $enddate
+role: $fpm.type.fine-print
+
+--- container: ftd.main
+
+--- ftd.column: 
+spacing: 16
+id: switch-container
+width: fill
+
+--- ftd.text: $title
+role: $copy-tight-bold
+color: $fpm.color.main.text
+
+--- ftd.row:
+width: fill
+
+--- ftd.text: $title
+link: $url
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text
+
+--- container: switch-container
+
+--- work-hightlights: 
+title: $obj
+$loop$: $highlights-project as $obj
+
+--- ftd.text: $description
+width:fill
+role: $fpm.type.fine-print
+padding-bottom: $fpm.space.space-5
+color: $fpm.color.main.text
+
+
+
+
+
+
+
+
+
+

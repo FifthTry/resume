@@ -19,5 +19,16 @@ zip: github.com/fifthtry/resume/archive/refs/heads/main.zip
 -- fpm.sitemap:
 
 # Home: index.html
-# Sample Resume: /sample/
+## Resume-1: /resume-1/
+## Resume-2: /resume-2/
+## Resume-3: /resume-3/
+## Resume-4: /resume-4/
+## Resume-5: /resume-5/
+## Resume-6: /resume-6/
+## Resume-7: /resume-7/
+## Resume-8: /resume-8/
+## Resume-9: /resume-9/
+## Resume-10: /resume-10/
+
+
 
