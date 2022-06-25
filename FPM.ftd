@@ -2,6 +2,7 @@
 
 -- fpm.package: fifthtry.github.io/resume
 zip: github.com/fifthtry/resume/archive/refs/heads/main.zip
+base: https://raw.githubusercontent.com/fifthtry/resume/main
 
 -- fpm.dependency: fifthtry.github.io/package-doc as pd
 -- fpm.dependency: fifthtry.github.io/inter
@@ -13,6 +14,8 @@ zip: github.com/fifthtry/resume/archive/refs/heads/main.zip
 -- fpm.auto-import: pd/code-block as cb
 -- fpm.auto-import: pd/forest-theme as ft
 -- fpm.auto-import: fifthtry.github.io/resume/FPM/config
+
+
 
 -- fpm.sitemap:
 
