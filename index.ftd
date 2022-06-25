@@ -77,15 +77,6 @@ weight: 700
 
 
 
-
-
-
-
-
-
-
-
-
 -- ft.page: Resume Template
 
 We have designed this creative resume template via using `FTD` language for you. 
@@ -102,27 +93,17 @@ lang: ftd
 \-- fpm.dependency: fifthtry.github.io/resume
 \-- fpm.auto-import: fifthtry.github.io/resume
 
-
 -- tf.markdown:
 
 Once you add above lines into your web package, add resume into your `.ftd` 
 files:
-
-
-
-
 
 -- cb.code: Add below line into your `.ftd` file
 lang: ftd
 
 \-- import: fifthtry.github.io/resume/resume as resume
 
-
-
-
-
 -- doc.hidden-code: How to add your details to use `-- myresume`
-
 
 \-- resume.profile: https://domain.com/xvy
 
@@ -260,28 +241,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
 nostrud exercitation ullamco laboris nisi ut
 
-
-
-
-
-
-
-
 -- cb.code: Example code to use `-- my-resume`
 lang: ftd
 
-\-- my-resume.my-resume: 
-
-
-
-
+\-- resume.my-resume: 
 
 -- tf.h3: Output of above:
 
-
 --- my-resume:
-
-
 
 
 
@@ -358,7 +325,6 @@ candidate-date-of-birth: $resume.basic.date-of-birth
 --- container: left-side
 
 --- data-card: Skills
-
 
 --- skills-card-data:
 name: $obj.name
@@ -1248,6 +1214,7 @@ if: $expertise == expert
 width: fill
 role: $rating-font
 color: $fpm.color.main.custom.two
+
 
 
 

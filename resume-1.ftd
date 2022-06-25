@@ -24,7 +24,7 @@ weight: 700
 
 -- ft.page: 
 
---- resume-card-data:
+--- my-resume:
 
 
 
@@ -35,7 +35,7 @@ weight: 700
 
 
 
--- ftd.column resume-card-data:
+-- ftd.column my-resume:
 align: center
 background-color: $fpm.color.main.background.base
 padding-top: $fpm.space.space-7

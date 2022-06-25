@@ -81,13 +81,9 @@ weight: 700
 
 
 
-
 -- ft.page:
 
-
 -- my-resume:
-
-
 
 
 
@@ -146,12 +142,9 @@ min-height: percent 100
 profile-picture: $resume.basic.image
 summary: $resume.basic.summary
 
-
-
 --- container: left-side
 
 --- data-card: Skills
-
 
 --- skills-card-data:
 name: $obj.name
@@ -162,7 +155,6 @@ $loop$: $resume.skills as $obj
 
 --- ftd.column:
 width: fill
-
 
 --- data-card: PERSONAL INFO
 
@@ -176,8 +168,6 @@ candidate-date-of-birth: $resume.basic.date-of-birth
 candidate-address-city: $resume.basic.location.city
 candidate-address-state: $resume.basic.location.state
 candidate-address-country: $resume.basic.location.country
-
-
 
 --- container: ftd.main
 
@@ -204,15 +194,12 @@ border-right-radius: 30
 candidate-name: $resume.basic.name
 candidate-label:  $resume.basic.label
 
-
-
 --- container: about-container
 
 --- data-card: EDUCATION
 
 --- ftd.column:
 width: fill
-
 
 --- education-card-data:
 institution: $obj.institution
@@ -232,7 +219,6 @@ $loop$: $resume.education as $obj
 --- ftd.column:
 width: fill
 
-
 --- work-card-data:
 title: $obj.title
 label: $obj.label
@@ -251,7 +237,6 @@ $loop$: $resume.works as $obj
 --- ftd.column:
 width: fill
 
-
 --- certificate-card-data:
 title: $obj.title
 date: $obj.date
@@ -265,7 +250,6 @@ $loop$: $resume.certificate as $obj
 --- ftd.column:
 width: fill
 
-
 --- project-card-data:
 title: $obj.title
 url: $obj.url
@@ -274,8 +258,6 @@ startdate: $obj.startdate
 enddate: $obj.enddate
 highlights-project: $obj.highlights-project
 $loop$: $resume.projects as $obj
-
-
 
 --- container: about-container
 
@@ -293,6 +275,10 @@ $loop$: $resume.languages as $obj
 
 
 
+
+
+
+
 -- ftd.column resume-grid-mobile:
 width: fill
 padding-top: $fpm.space.space-6
@@ -304,8 +290,6 @@ id: left-side
 width: fill
 height: fill
 
-
-
 --- profile-card-data:
 candidate-name: $resume.basic.name
 candidate-label: $resume.basic.label
@@ -314,7 +298,6 @@ summary: $resume.basic.summary
 
 --- ftd.column:
 width: fill
-
 
 --- data-card: Contacts
 
@@ -338,23 +321,16 @@ name: $obj.name
 expertise: $obj.expertise
 $loop$: $resume.skills as $obj
 
-
 --- container: ftd.main
 
 --- ftd.column:
 id: about-container
 width: fill
 
-
-
-
-
-
 --- data-card: WORK EXPERIENCES
 
 --- ftd.column:
 width: fill
-
 
 --- work-card-data:
 title: $obj.title
@@ -374,7 +350,6 @@ $loop$: $resume.works as $obj
 --- ftd.column:
 width: fill
 
-
 --- education-card-data:
 institution: $obj.institution
 url: $obj.url
@@ -393,7 +368,6 @@ $loop$: $resume.education as $obj
 --- ftd.column:
 width: fill
 
-
 --- certificate-card-data:
 title: $obj.title
 date: $obj.date
@@ -406,7 +380,6 @@ $loop$: $resume.certificate as $obj
 
 --- ftd.column:
 width: fill
-
 
 --- project-card-data:
 title: $obj.title
@@ -443,7 +416,6 @@ if: $candidate-name is not null
 role: $fpm.type.heading-hero
 padding-horizontal: $fpm.space.space-4
 margin-bottom: $fpm.space.space-2
-
 
 --- container: border-container
 
@@ -487,7 +459,6 @@ width: fill
 text: $summary
 role: $fpm.type.label-small
 color: $fpm.color.main.text
-
 
 
 
@@ -961,7 +932,6 @@ string candidate-address-state:
 string candidate-address-country:
 spacing: 8
 
-
 --- ftd.row:
 width: fill
 id: image-container
@@ -1035,7 +1005,6 @@ role: $fpm.type.fine-print
 
 
 
-
 -- ftd.row image-text:
 string icon:
 caption title:
@@ -1061,11 +1030,6 @@ role: $fpm.type.fine-print
 
 
 
-
-
-
-
-
 -- ftd.column label-name:
 caption title:
 string label:
@@ -1080,19 +1044,6 @@ color: $fpm.color.main.text-strong
 text: $label
 role: $fpm.type.fine-print
 color: $fpm.color.main.text
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1129,6 +1080,12 @@ align: left
 
 
 
+
+
+
+
+
+
 -- ftd.row progress-bar:
 caption expertise:
 width: calc 100% - 1px
@@ -1146,7 +1103,6 @@ margin-left: -1
 width: percent 10
 background-color:  $fpm.color.main.text-strong
 border-radius: 25
-
 spacing: 4
 
 --- ftd.text: 10%
@@ -1155,10 +1111,7 @@ role: $rating-font
 color: $fpm.color.main.text-strong
 margin-left: $fpm.space.space-4
 
-
-
 --- container: ftd.main
-
 
 --- ftd.row:
 if: $expertise == beginner
@@ -1181,10 +1134,7 @@ role: $font-12
 color: $fpm.color.main.text-strong
 align: center
 
-
-
 --- container: ftd.main
-
 
 --- ftd.row:
 if: $expertise == advance
@@ -1203,12 +1153,7 @@ role: $rating-font
 color: $fpm.color.main.text-strong
 margin-left: $fpm.space.space-10
 
-
-
-
-
 --- container: ftd.main
-
 
 --- ftd.row:
 if: $expertise == competent
@@ -1255,7 +1200,6 @@ color: $fpm.color.main.background.step-1
 
 
 
-
 -- ftd.row language-card-data:
 caption title:
 spacing: 24
@@ -1275,15 +1219,12 @@ margin-top: $fpm.space.space-1
 align: center
 width: fill
 
-
-
 ---  ftd.text: $title
 color: $fpm.color.main.text
 role: $fpm.type.fine-print
 text-align: center
 width: fill
 min-width: 48
-
 
 
 

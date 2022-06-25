@@ -3,16 +3,13 @@
 -- import: fpm
 -- import: fifthtry.github.io/resume/assets
 
-
-
-
-
 -- string list interest:
 
 -- interest: music
--- interest: cooking
--- interest: dancing
 
+-- interest: cooking
+
+-- interest: dancing
 
 
 
@@ -30,13 +27,11 @@ body summary:
 
 
 
-	
 
 -- record skill-data:
 optional caption title:
 string name:
 optional string expertise:
-
 
 -- skill-data list skills:
 
@@ -47,6 +42,7 @@ expertise: beginner
 -- skills: abc
 name: JavaScript
 expertise: expert
+
 
 
 
@@ -80,7 +76,6 @@ optional body body:
 
 -- reference-data list references:
 
-
 -- references: Ankit
 phone-no: +9166777777778
 email-id: email@example. com
@@ -95,11 +90,8 @@ phone-no: +9166777777778
 email-id: email@example. com
 position: Senior Web Developer
 company: XYZ software PVT LTD
+
 fghjkl
-
-
-
-
 
 
 
@@ -114,7 +106,6 @@ optional string startdate:
 string url:
 optional string enddate:
 string list roles:
-
 
 -- project-data list projects:
 
@@ -146,16 +137,12 @@ nostrud exercitation ullamco laboris nisi ut
 
 
 
-
-
-
 -- record certificate-data:
 caption title:
 optional string issuer:
 string url:
 optional string date:
 optional body body::
-
 
 -- certificate-data list certificate:
 
@@ -168,9 +155,6 @@ date: 12-2014
 issuer: xyz
 url: /
 date: 12-2015
-
-
-
 
 
 
@@ -199,8 +183,6 @@ volunteer-highlights: Stary animal helps
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
 nostrud exercitation ullamco laboris nisi ut
-
-
 
 
 
@@ -242,8 +224,6 @@ location: Mumbai
 
 
 
-
-
 -- record work-data:
 caption title:
 string label:
@@ -270,7 +250,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
 nostrud exercitation ullamco laboris nisi ut
 
-
 -- works: XYZ software PVT LTD
 label: Web Developer
 location: india
@@ -284,6 +263,7 @@ work-highlights: FTD developer
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
 nostrud exercitation ullamco laboris nisi ut
+
 
 
 
@@ -305,17 +285,15 @@ awarder: Rohan
 
 
 
-
-
 -- record address-data:
 optional string city:
 optional string state:
 optional string country:
 
-
-
-
-
+-- address-data location:
+city: Delhi
+state: Delhi
+country: India
 
 
 
@@ -335,25 +313,6 @@ optional string marital-status:
 string phone-no:
 optional string date-of-birth:
 string email:
-
-
-
-
-
-
-
--- address-data location:
-city: Delhi
-state: Delhi
-country: India
-
-
-
-
-
-
-
-
 
 -- basic-data basic:
 name: your name
@@ -377,10 +336,6 @@ nostrud exercitation ullamco laboris nisi ut
 
 
 
-
-
-
-
 -- record resume-data:
 basic-data basic:
 work-data list works:
@@ -395,14 +350,6 @@ reference-data list references:
 project-data list projects:
 string list interest:
 
-
-
-
-
-
-
-
-
 -- resume-data resume:
 basic: $basic
 works: $works
@@ -416,4 +363,3 @@ references: $references
 languages: $languages
 projects: $projects
 interest: $interest
-

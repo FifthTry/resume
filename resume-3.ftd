@@ -69,7 +69,7 @@ weight: 700
 
 -- ft.page:
 
--- resume-4:
+--- my-resume:
 
 
 
@@ -80,7 +80,7 @@ weight: 700
 
 
 
--- ftd.column resume-4:
+-- ftd.column my-resume:
 margin-top: $fpm.space.space-4
 margin-bottom: $fpm.space.space-4
 width: auto
