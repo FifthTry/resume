@@ -1,0 +1,2147 @@
+-- import: fpm
+-- import: fifthtry.github.io/resume/assets
+-- import: fifthtry.github.io/resume/resume as resume
+
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
+
+
+-- resume.profile: https://domain.com/xvy
+
+-- resume.profile: https://domain.com/abc
+
+
+-- resume.basic.name: Richard Hendriks
+-- resume.basic.label: Programmer
+/-- resume.basic.avatar: $assets.files.assests.profile.png
+-- resume.basic.email: email@example.com 
+-- resume.basic.phone-no: +91 4598955165 
+-- resume.basic.url: http://richardhendricks.com/
+-- resume.basic.location.city: 2712 Broadway St
+-- resume.basic.location.state: San Francisco (US)
+-- resume.basic.location.country: California
+-- resume.basic.profile: $profile
+-- resume.basic.linked-in: linkedin.com/in/your.name
+-- resume.basic.linked-in-url: https://www.linkedin.com/your.name
+-- resume.basic.marital-status: Married
+-- resume.basic.date-of-birth: 06/09/1993
+-- resume.basic.summary:
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+
+
+
+
+
+
+
+
+-- resume.education: ABCD College of Engineering
+url: /
+course: B.Tech in Computer Science & Engineering 
+studytype: Graduation
+startdate: 08/2019
+enddate: 08/2014
+weightage: 7.06
+specialist: DB1101 - Basic SQL
+
+-- resume.education: ABCD BHCGD High SCHOOL
+url: /
+course: Higher Secondary
+studytype: Study
+startdate: 08/2014
+enddate: 08/2012
+weightage: 7.06
+specialist: Mathematics
+
+-- resume.education: ABCD BJHDU high SCHOOL
+url: /
+course: Secondary
+studytype: Study
+startdate: 08/2012
+enddate: 08/2010
+weightage: 7.06
+specialist: Mathematics
+
+
+
+
+
+
+
+
+
+
+-- resume.works: ABCD software PVT LTD
+label: Web Developer
+location: india
+url: http://piedpiper.com
+startdate: 08/2019
+enddate: present
+work-highlights: - Web Development using Django
+work-highlights: - Front-end web development
+work-highlights: - FTD developer 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut
+
+-- resume.works: XYZ software PVT LTD
+label: Web Developer
+location: india
+url: http://piedpiper.com
+startdate: 08/2018
+enddate: 08/2019
+work-highlights: - Web Development using Django
+work-highlights: - Front-end web development
+work-highlights: - FTD developer 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut
+
+-- resume.works: HJJ software PVT LTD
+label: Web Developer
+location: india
+url: http://piedpiper.com
+startdate: 08/2017
+enddate: 8/2018
+work-highlights: - Web Development using Django
+work-highlights: - Front-end web development
+work-highlights: - FTD developer 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut
+
+
+
+
+
+
+
+
+
+-- resume.volunteers: 
+organization: ABCD Foundation
+position: Rescuar
+url: http://coderdojo.com/
+startdate: 08/2019
+enddate: present
+volunteer-highlights: - Dog rescue
+volunteer-highlights: - Stary animal helps
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut
+
+-- resume.volunteers: 
+organization: XYZ sFoundation
+position: Donator
+url: http://coderdojo.com/
+startdate: 08/2018
+enddate: 08/2019
+volunteer-highlights: - Dog rescue
+volunteer-highlights: - Stary animal helps
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut
+
+
+
+
+
+
+
+
+
+-- resume.awards: Critical software engineering talent award
+awarder: xyz
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut
+
+
+-- resume.awards: Innovative leadership talent award
+awarder: xyz
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+
+
+
+
+
+
+
+
+-- resume.certificate: Certified Scrum Master
+issuer: xyz
+url: /
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut
+
+
+-- resume.certificate: Microsoft Certified Software Developer
+issuer: xyz
+url: /
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+
+-- resume.certificate: Certified Secure Software Lifecyle Professional
+issuer: xyz
+url: /
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+
+
+
+
+
+
+
+
+-- resume.publications: Video compression for 3d media
+publiser: xyz
+releasedate: 7/09
+url: Video compression for 3d media
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+
+-- resume.publications: Audio compression for 3d media
+publiser: xyz
+releasedate: 7/09
+url: Video compression for 3d media 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+
+
+
+
+
+
+
+
+
+
+
+-- resume.skills: Web Development
+name: Python
+expertise: Master
+
+-- resume.skills: Compression
+name: GIF
+expertise: Master
+
+
+
+
+
+
+
+
+-- resume.languages: English
+fluency: fluent
+
+-- resume.languages: Hindi
+fluency: Native
+
+-- resume.languages: Bengali
+fluency: Native
+
+
+
+
+
+
+
+
+-- resume.interest: Sports ,
+
+-- resume.interest: Music
+
+
+
+
+
+
+
+
+
+-- resume.references: xyz
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+
+-- resume.references: bba
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+
+
+
+
+-- resume.roles: team manager
+
+-- resume.roles: full stack
+
+
+
+
+
+
+
+
+
+
+
+-- resume.projects: Facial expression recognisation on video call using Machine Learning
+url: /
+startdate: 7/09 t
+enddate: o 8/10
+roles: $roles
+highlights-project: xvy
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+
+-- resume.projects: Developed a complete e-commerse website
+url: /
+startdate: 7/09 t
+enddate: o 8/10
+roles: $roles
+highlights-project: abc
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+
+-- resume.projects: Heart disease prediction
+url: /
+startdate: 7/09 t
+enddate: o 8/10
+roles: $roles
+highlights-project: abc
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut 
+
+
+
+
+
+
+
+
+
+-- ft.page:
+
+
+
+--- resume-card-data:
+
+-- ftd.column resume-card-data:
+align: center
+background-color: $fpm.color.main.background.base
+padding-vertical: $fpm.space.space-8
+padding-horizontal: $fpm.space.space-10
+width: fill
+height: auto
+
+
+
+
+
+
+
+
+
+--- profile-head:
+
+--- contact-card-data:
+
+--- contact-card-data-mobile:
+
+--- location-card-data:
+
+--- location-card-data-mobile:
+
+--- skills-card-data:
+
+--- skills-card-data-mobile:
+
+--- works-card-data:
+
+--- works-card-data-mobile:
+
+--- education-card-data:
+
+--- education-card-data-mobile:
+
+--- volunteers-card-data:
+
+--- volunteers-card-data-mobile:
+
+--- languages-card-data:
+
+--- languages-card-data-mobile:
+
+--- awards-card-data:
+
+--- awards-card-data-mobile:
+
+--- profiles-card-data:
+
+--- profiles-card-data-mobile:
+
+--- personal-card-data:
+
+--- personal-card-data-mobile:
+
+
+
+
+
+
+
+
+
+
+-- ftd.column profile-head:
+caption candidate-name: $resume.basic.name
+string candidate-label: $resume.basic.label
+align: center
+
+--- ftd.text: $candidate-name
+role: $fpm.type.heading-small
+color: $fpm.color.main.text-strong
+
+--- ftd.text: $candidate-label
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text
+align: center
+
+
+
+
+
+
+
+
+
+-- ftd.column contact-card-data-mobile:
+if: $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- contact-head-mobile:
+
+--- contact-body-mobile:
+
+
+
+
+
+
+
+
+
+-- ftd.row contact-head-mobile:
+caption contact-head: CONTACT
+align: center
+
+--- ftd.text: $contact-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column contact-body-mobile:
+string website-head: Website
+string candidate-website-link: $resume.basic.url
+string email-head: Email
+string candidate-email-id: $resume.basic.email
+string phone-head: Phone
+string candidate-phone-no: $resume.basic.phone-no
+padding-vertical: $fpm.space.space-3
+padding-horizontal: $fpm.space.space-6
+spacing: 8
+
+--- ftd.text: $website-head
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text-strong
+
+--- ftd.text: $candidate-website-link
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: $email-head
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text-strong
+
+--- ftd.text: $candidate-email-id
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+	
+--- ftd.text: $phone-head
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text-strong
+
+--- ftd.text: $candidate-phone-no
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+
+
+
+
+
+
+
+
+-- ftd.row contact-card-data:
+if: not $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- contact-head:
+
+--- contact-body:
+
+
+
+
+
+
+
+
+
+-- ftd.row contact-head:
+caption contact-head: CONTACT
+width: percent 30
+align: center
+
+--- ftd.text: $contact-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column contact-body:
+string website-head: Website
+string candidate-website-link: $resume.basic.url
+string email-head: Email
+string candidate-email-id: $resume.basic.email
+string phone-head: Phone
+string candidate-phone-no: $resume.basic.phone-no
+padding-vertical: $fpm.space.space-3
+padding-horizontal: $fpm.space.space-6
+width: percent 70
+border-left: 1
+border-color: $fpm.color.main.border
+spacing: 12
+
+--- ftd.row:
+width: fill
+
+--- ftd.text: $website-head
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text-strong
+width: percent 30
+
+--- ftd.text: $candidate-website-link
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+width: percent 70
+
+--- container: ftd.main
+
+--- ftd.row:
+width: fill
+
+--- ftd.text: $email-head
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text-strong
+width: percent 30
+
+--- ftd.text: $candidate-email-id
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+width: percent 70
+
+--- container: ftd.main
+
+--- ftd.row:
+width: fill
+	
+--- ftd.text: $phone-head
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text-strong
+width: percent 30
+
+--- ftd.text: $candidate-phone-no
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+width: percent 70
+
+
+
+
+
+
+
+
+
+-- ftd.column location-card-data-mobile:
+if: $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- location-head-mobile:
+
+--- location-body-mobile:
+
+
+
+
+
+
+
+
+
+-- ftd.row location-head-mobile:
+caption location-head: LOCATION
+align: center
+
+--- ftd.text: $location-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column location-body-mobile:
+string address-head: Address
+string candidate-address-city: $resume.basic.location.city
+string state-head: State
+string candidate-address-state: $resume.basic.location.state
+string country-head: Country
+string candidate-address-country: $resume.basic.location.country
+padding-vertical: $fpm.space.space-3
+padding-horizontal: $fpm.space.space-6
+width: fill
+spacing: 8
+
+--- ftd.text: $address-head
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text-strong
+
+--- ftd.text: $candidate-address-city
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- container: ftd.main
+
+--- ftd.text: $state-head
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text-strong
+
+--- ftd.text: $candidate-address-state
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- container: ftd.main
+	
+--- ftd.text: $country-head
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text-strong
+
+--- ftd.text: $candidate-address-country
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+
+
+
+
+
+
+
+
+-- ftd.row location-card-data:
+if: not $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- location-head:
+
+--- location-body:
+
+
+
+
+
+
+
+
+
+-- ftd.row location-head:
+caption location-head: LOCATION
+width: percent 30
+align: center
+
+--- ftd.text: $location-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column location-body:
+string address-head: Address
+string candidate-address-city: $resume.basic.location.city
+string state-head: State
+string candidate-address-state: $resume.basic.location.state
+string country-head: Country
+string candidate-address-country: $resume.basic.location.country
+padding-vertical: $fpm.space.space-3
+padding-horizontal: $fpm.space.space-6
+width: percent 70
+border-left: 1
+border-color: $fpm.color.main.border
+spacing: 12
+
+--- ftd.row:
+width: fill
+
+--- ftd.text: $address-head
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text-strong
+width: percent 30
+
+--- ftd.text: $candidate-address-city
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+width: percent 70
+
+--- container: ftd.main
+
+--- ftd.row:
+width: fill
+
+--- ftd.text: $state-head
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text-strong
+width: percent 30
+
+--- ftd.text: $candidate-address-state
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+width: percent 70
+
+--- container: ftd.main
+
+--- ftd.row:
+width: fill
+	
+--- ftd.text: $country-head
+role: $fpm.type.copy-tight
+color: $fpm.color.main.text-strong
+width: percent 30
+
+--- ftd.text: $candidate-address-country
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+width: percent 70
+
+
+
+
+
+
+
+
+
+-- ftd.column skills-card-data-mobile:
+if: $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- skills-head-mobile:
+
+--- ftd.column:
+
+--- skills-body-mobile:
+title: $obj.title
+name: $obj.name
+expertise: $obj.expertise
+$loop$: $resume.skills as $obj
+
+
+
+
+
+
+
+
+
+-- ftd.column skills-head-mobile:
+caption skills-head: PROFESSIONAL SKILLS SUMMARY
+align: center
+
+--- ftd.text: $skills-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column skills-body-mobile:
+optional caption title:
+string name:
+optional string expertise:
+padding-vertical: $fpm.space.space-2
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- ftd.row:
+width: fill
+spacing: 4
+
+--- ftd.text: $title
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+
+--- ftd.text: (
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: $expertise
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: )
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: :
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: $name
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+
+
+
+
+
+
+
+
+-- ftd.row skills-card-data:
+if: not $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- skills-head:
+
+--- ftd.column:
+
+--- skills-body:
+title: $obj.title
+name: $obj.name
+expertise: $obj.expertise
+$loop$: $resume.skills as $obj
+
+
+
+
+
+
+
+
+
+-- ftd.column skills-head:
+caption skills-head: PROFESSIONAL SKILLS SUMMARY
+align: center
+width: percent 30
+
+--- ftd.text: $skills-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column skills-body:
+optional caption title:
+string name:
+optional string expertise:
+padding-vertical: $fpm.space.space-2
+padding-horizontal: $fpm.space.space-6
+border-left: 1
+border-color: $fpm.color.main.border
+width: fill
+
+--- ftd.row:
+width: fill
+spacing: 4
+
+--- ftd.text: $title
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+
+--- ftd.text: (
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: $expertise
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: )
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: :
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: $name
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+
+
+
+
+
+
+
+
+-- ftd.column works-card-data-mobile:
+if: $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- works-head-mobile:
+
+--- works-body-mobile:
+title: $obj.title
+label: $obj.label
+startdate: $obj.startdate
+enddate: $obj.enddate
+summary: $obj.summary
+work-highlights: $obj.work-highlights
+$loop$: $resume.works as $obj
+
+
+
+
+
+
+
+
+
+-- ftd.column works-head-mobile:
+caption works-head: WORK EXPERIENCE
+align: center
+
+--- ftd.text: $works-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column works-body-mobile:
+caption title:
+string label:
+string startdate:
+string enddate:
+body summary:
+string list work-highlights: $work-highlights
+padding-vertical: $fpm.space.space-2
+padding-horizontal: $fpm.space.space-6
+spacing: 4
+
+--- ftd.row:
+spacing: 4
+
+--- ftd.text: $startdate
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+
+--- ftd.text: to
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+
+--- ftd.text: $enddate
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+
+--- container: ftd.main
+
+--- ftd.column:
+
+--- ftd.row:
+width: fill
+spacing: 4
+
+--- ftd.text: $label
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+
+--- ftd.text: at
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: $title
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- container: ftd.main
+
+--- ftd.column:
+padding-top: $fpm.space.space-2
+
+--- ftd.text: $summary
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: $obj
+$loop$: $work-highlights as $obj
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+
+
+
+
+
+
+
+
+
+-- ftd.row works-card-data:
+if: not $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- works-head:
+
+--- ftd.column:
+
+--- works-body:
+title: $obj.title
+label: $obj.label
+startdate: $obj.startdate
+enddate: $obj.enddate
+summary: $obj.summary
+work-highlights: $obj.work-highlights
+$loop$: $resume.works as $obj
+
+
+
+
+
+
+
+
+
+-- ftd.column works-head:
+caption works-head: WORK EXPERIENCE
+align: center
+width: percent 40
+
+--- ftd.text: $works-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column works-body:
+caption title:
+string label:
+string startdate:
+string enddate:
+body summary:
+string list work-highlights: $work-highlights
+padding-vertical: $fpm.space.space-2
+padding-horizontal: $fpm.space.space-6
+width: percent 70
+border-left: 1
+border-color: $fpm.color.main.border
+
+--- ftd.row:
+width: fill
+spacing: 4
+
+--- ftd.text: $label
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+
+--- ftd.text: at
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: $title
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: between
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: $startdate
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: to
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: $enddate
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- container: ftd.main
+
+--- ftd.column:
+padding-top: $fpm.space.space-2
+
+--- ftd.text: $summary
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: $obj
+$loop$: $work-highlights as $obj
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+
+
+
+
+
+
+
+
+-- ftd.column education-card-data-mobile:
+if: $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- education-head-mobile:
+
+--- education-body-mobile:
+institution: $obj.institution
+course: $obj.course
+studytype: $obj.studytype
+startdate: $obj.startdate
+enddate: $obj.enddate
+weightage: $obj.weightage
+$loop$: $resume.education as $obj
+
+
+
+
+
+
+
+
+
+-- ftd.column education-head-mobile:
+caption education-head: EDUCATION
+align: center
+
+--- ftd.text: $education-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column education-body-mobile:
+caption institution:
+string course:
+string studytype:
+optional string startdate:
+optional string enddate:
+optional decimal weightage:
+padding-vertical: $fpm.space.space-3
+padding-horizontal: $fpm.space.space-6
+width: fill
+spacing: 8
+
+--- ftd.text: $institution
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+
+--- ftd.row:
+spacing: 4
+
+--- ftd.text: $startdate
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: to
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: $enddate
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- container: ftd.main
+
+--- ftd.column:
+padding-top: $fpm.space.space-2
+
+--- ftd.row:
+
+--- ftd.text: -
+
+--- ftd.row: 
+padding-top: $fpm.space.space-3
+spacing: 4
+width: fill
+
+--- ftd.text: $studytype
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: :
+color: $fpm.color.main.text
+
+--- ftd.text: $course
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: (
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.decimal: $weightage
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: )
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+
+
+
+
+
+
+
+
+-- ftd.row education-card-data:
+if: not $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- education-head:
+
+--- ftd.column:
+
+--- education-body:
+institution: $obj.institution
+course: $obj.course
+studytype: $obj.studytype
+startdate: $obj.startdate
+enddate: $obj.enddate
+weightage: $obj.weightage
+$loop$: $resume.education as $obj
+
+
+
+
+
+
+
+
+
+-- ftd.column education-head:
+caption education-head: EDUCATION
+align: center
+width: percent 30
+
+--- ftd.text: $education-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column education-body:
+caption institution:
+string course:
+string studytype:
+optional string startdate:
+optional string enddate:
+optional decimal weightage:
+padding-vertical: $fpm.space.space-3
+padding-horizontal: $fpm.space.space-6
+width: fill
+border-left: 1
+border-color: $fpm.color.main.border
+spacing: 8
+
+--- ftd.text: $institution
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+
+--- ftd.row:
+spacing: 4
+
+--- ftd.text: $startdate
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: to
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: $enddate
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- container: ftd.main
+
+--- ftd.column:
+padding-top: $fpm.space.space-2
+
+--- ftd.row:
+
+--- ftd.text: -
+
+--- ftd.row: 
+padding-top: $fpm.space.space-3
+spacing: 4
+
+--- ftd.text: $studytype
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: :
+color: $fpm.color.main.text
+
+--- ftd.text: $course
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: (
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.decimal: $weightage
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: )
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+
+
+
+
+
+
+
+
+-- ftd.column volunteers-card-data-mobile:
+if: $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- volunteers-head-mobile:
+
+--- volunteers-body-mobile:
+organization: $obj.organization
+position: $obj.position
+startdate: $obj.startdate
+enddate: $obj.enddate
+volunteer-highlights: $obj.volunteer-highlights
+$loop$: $resume.volunteers as $obj
+
+
+
+
+
+
+
+
+
+-- ftd.column volunteers-head-mobile:
+caption volunteers-head: VOLUNTEERING
+align: center
+
+--- ftd.text: $volunteers-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column volunteers-body-mobile:
+string organization:
+string position:
+string startdate:
+string enddate:
+string list volunteer-highlights: $volunteer-highlights
+padding-vertical: $fpm.space.space-3
+padding-horizontal: $fpm.space.space-6
+width: fill
+spacing: 8
+
+--- ftd.text: $organization
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+
+--- ftd.text: $position
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.row:
+spacing: 4
+
+--- ftd.text: $startdate
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: to
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: $enddate
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- container: ftd.main
+
+--- ftd.column:
+
+--- ftd.text: $obj
+$loop$: $volunteer-highlights as $obj
+role: $fpm.type.label-small
+color: $fpm.color.main.text
+
+
+
+
+
+
+
+
+
+-- ftd.row volunteers-card-data:
+if: not $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- volunteers-head:
+
+--- ftd.column:
+
+--- volunteers-body:
+organization: $obj.organization
+position: $obj.position
+startdate: $obj.startdate
+enddate: $obj.enddate
+volunteer-highlights: $obj.volunteer-highlights
+$loop$: $resume.volunteers as $obj
+
+
+
+
+
+
+
+
+
+-- ftd.column volunteers-head:
+caption volunteers-head: VOLUNTEERING
+align: center
+width: percent 30
+
+--- ftd.text: $volunteers-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column volunteers-body:
+string organization:
+string position:
+string startdate:
+string enddate:
+string list volunteer-highlights: $volunteer-highlights
+padding-vertical: $fpm.space.space-3
+padding-horizontal: $fpm.space.space-6
+width: fill
+border-left: 1
+border-color: $fpm.color.main.border
+spacing: 8
+
+--- ftd.text: $organization
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+
+--- ftd.text: $position
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.row:
+spacing: 4
+
+--- ftd.text: $startdate
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: to
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.text: $enddate
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- container: ftd.main
+
+--- ftd.column:
+
+--- ftd.text: $obj
+$loop$: $volunteer-highlights as $obj
+role: $fpm.type.label-small
+color: $fpm.color.main.text
+
+
+
+
+
+
+
+
+
+-- ftd.column languages-card-data-mobile:
+if: $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- languages-head-mobile:
+
+--- languages-body-mobile:
+title: $obj.title
+fluency: $obj.fluency
+$loop$: $resume.languages as $obj
+
+
+
+
+
+
+
+
+
+-- ftd.column languages-head-mobile:
+caption languages-head: LANGUAGES
+align: center
+
+--- ftd.text: $languages-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column languages-body-mobile:
+caption title:
+string fluency:
+padding-vertical: $fpm.space.space-3
+padding-horizontal: $fpm.space.space-6
+width: fill
+spacing: 8
+
+--- ftd.text: $title
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+
+--- ftd.text: $fluency
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+
+
+
+
+
+
+
+
+
+-- ftd.row languages-card-data:
+if: not $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- languages-head:
+
+--- ftd.column:
+
+--- languages-body:
+title: $obj.title
+fluency: $obj.fluency
+$loop$: $resume.languages as $obj
+
+
+
+
+
+
+
+
+
+-- ftd.column languages-head:
+caption languages-head: LANGUAGES
+align: center
+width: percent 30
+
+--- ftd.text: $languages-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column languages-body:
+caption title:
+string fluency:
+padding-vertical: $fpm.space.space-3
+padding-horizontal: $fpm.space.space-6
+width: fill
+border-left: 1
+border-color: $fpm.color.main.border
+spacing: 8
+
+--- ftd.row:
+spacing: 4
+width: fill
+
+--- ftd.text: $title
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+width: percent 90
+
+--- ftd.text: $fluency
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+width: percent 10
+
+
+
+
+
+
+
+
+
+-- ftd.column awards-card-data-mobile:
+if: $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- awards-head-mobile:
+
+--- awards-body-mobile:
+title: $obj.title
+awarder: $obj.awarder
+summary: $obj.summary
+$loop$: $resume.awards as $obj
+
+
+
+
+
+
+
+
+
+-- ftd.column awards-head-mobile:
+caption awards-head: AWARDS
+align: center
+
+--- ftd.text: $awards-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column awards-body-mobile:
+caption title:
+string awarder:
+body summary:
+padding-vertical: $fpm.space.space-3
+padding-horizontal: $fpm.space.space-6
+spacing: 8
+
+--- ftd.text: $title
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+
+--- ftd.text: $awarder
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.row:
+
+--- ftd.text: -
+
+--- ftd.text: $summary
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+padding-top: $fpm.space.space-3
+
+
+
+
+
+
+
+
+
+
+-- ftd.row awards-card-data:
+if: not $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- awards-head:
+
+--- ftd.column:
+
+--- awards-body:
+title: $obj.title
+awarder: $obj.awarder
+summary: $obj.summary
+$loop$: $resume.awards as $obj
+
+
+
+
+
+
+
+
+
+-- ftd.column awards-head:
+caption awards-head: AWARDS
+align: center
+width: percent 41
+
+--- ftd.text: $awards-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column awards-body:
+caption title:
+string awarder:
+body summary:
+padding-vertical: $fpm.space.space-3
+padding-horizontal: $fpm.space.space-6
+width: percent 70
+border-left: 1
+border-color: $fpm.color.main.border
+spacing: 8
+
+--- ftd.text: $title
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+
+--- ftd.text: $awarder
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+
+--- ftd.row:
+
+--- ftd.text: -
+
+--- ftd.text: $summary
+role: $fpm.type.fine-print
+color: $fpm.color.main.text
+padding-top: $fpm.space.space-3
+
+
+
+
+
+
+
+
+
+-- ftd.column profiles-card-data-mobile:
+if: $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- profiles-head-mobile:
+
+--- profiles-body-mobile:
+
+
+
+
+
+
+
+
+
+-- ftd.column profiles-head-mobile:
+caption profiles-head: PROFILES
+align: center
+
+--- ftd.text: $profiles-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column profiles-body-mobile:
+caption linkedin-head: Linkedin
+string candidate-linkedin-profile: $resume.basic.linked-in-url
+padding-vertical: $fpm.space.space-3
+padding-horizontal: $fpm.space.space-6
+spacing: 8
+
+--- ftd.text: $linkedin-head
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+
+--- ftd.text: $candidate-linkedin-profile
+role: $fpm.type.fine-print
+
+
+
+
+
+
+
+
+
+-- ftd.row profiles-card-data:
+if: not $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- profiles-head:
+
+--- profiles-body:
+
+
+
+
+
+
+
+
+
+-- ftd.column profiles-head:
+caption profiles-head: PROFILES
+align: center
+width: percent 30
+
+--- ftd.text: $profiles-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.row profiles-body:
+caption linkedin-head: Linkedin
+string candidate-linkedin-profile: $resume.basic.linked-in-url
+padding-vertical: $fpm.space.space-3
+padding-horizontal: $fpm.space.space-6
+width: percent 70
+border-left: 1
+border-color: $fpm.color.main.border
+spacing: 8
+
+--- ftd.text: $linkedin-head
+role: $fpm.type.fine-print
+color: $fpm.color.main.text-strong
+width: percent 30
+
+--- ftd.text: $candidate-linkedin-profile
+role: $fpm.type.fine-print
+width: percent 30
+
+
+
+
+
+
+
+
+
+-- ftd.column personal-card-data-mobile:
+if: $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- personal-head-mobile:
+
+--- personal-body-mobile:
+
+
+
+
+
+
+
+
+
+-- ftd.column personal-head-mobile:
+caption personal-head: PERSONAL
+align: center
+
+--- ftd.text: $personal-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column personal-body-mobile:
+string list resume.interest: $resume.interest
+padding-vertical: $fpm.space.space-1
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- ftd.row:
+spacing: 4
+
+--- ftd.text: $obj
+$loop$: $resume.interest as $obj
+role: $fpm.type.label-small
+color: $fpm.color.main.text
+
+
+
+
+
+
+
+
+
+
+-- ftd.row personal-card-data:
+if: not $is-mobile
+padding-vertical: $fpm.space.space-6
+padding-horizontal: $fpm.space.space-6
+width: fill
+
+--- personal-head:
+
+--- ftd.column:
+
+--- personal-body:
+
+
+
+
+
+
+
+
+
+-- ftd.column personal-head:
+caption personal-head: PERSONAL
+align: center
+width: percent 30
+
+--- ftd.text: $personal-head
+role: $fpm.type.copy-large
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+
+
+
+-- ftd.column personal-body:
+string list resume.interest: $resume.interest
+padding-vertical: $fpm.space.space-1
+padding-horizontal: $fpm.space.space-6
+width: fill
+border-left: 1
+border-color: $fpm.color.main.border
+
+--- ftd.row:
+spacing: 4
+
+--- ftd.text: $obj
+$loop$: $resume.interest as $obj
+role: $fpm.type.label-small
+color: $fpm.color.main.text
+
