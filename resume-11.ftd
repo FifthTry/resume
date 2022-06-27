@@ -363,7 +363,11 @@ nostrud exercitation ullamco laboris nisi ut
 
 
 
--- resume-card-data:
+-- ft.page:
+
+
+
+--- resume-card-data:
 
 -- ftd.column resume-card-data:
 align: center
@@ -933,6 +937,7 @@ role: $fpm.type.label-small
 --- ftd.text: $summary
 role: $fpm.type.label-small
 color: $fpm.color.main.text
+padding-top: $fpm.space.space-2
 
 --- ftd.text: $obj
 $loop$: $work-highlights as $obj
