@@ -1,9 +1,9 @@
 -- import: fifthtry.github.io/resume as r
 
--- r.resume john-doe: John Doe
+-- r.resume john-doe: 
 
--- john-doe.basic: Programmer
-image: john-doe.jpg
+-- john-doe.basic: John Doe
+label: Programmer
 email: john@gmail.com
 phone: (912) 555-4321
 url: https://johndoe.com
@@ -62,16 +62,20 @@ summary: Description
 
 -- john-doe.skill: Web Development
 level: Master
-keywords: HTML, CSS, JavaScript
+keyword: HTML
 
 -- john-doe.language: English
 fluency: Native speaker
 
 -- john-doe.interest: Wildlife
-keywords: Ferrets, Unicorns
+keyword: Ferrets
 
 -- john-doe.reference: Jane Doe
-reference: Reference…
+reference: blah blah
+phone-no: 123456789
+email-id: joe@joe.com
+position: CTO
+company: joe cosmetics
 
 -- john-doe.project: Project name
 description: Description…
@@ -83,4 +87,3 @@ url: https://project.com/
 role: Team Lead
 entity: Entity
 type: application
-
