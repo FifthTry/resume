@@ -29,6 +29,7 @@ optional string url:
 optional string startDate:
 optional string endDate:
 optional string summary:
+optional string location:
 optional string highlights:
 
 -- record volunteer:

@@ -25,6 +25,7 @@ position: Software Developer
 url: https://fifthtry.com
 startDate: 2013-01-01
 endDate: 2014-01-01
+location: mumbai
 summary: Description…
 highlights: Started working on FTD language in this company
 
@@ -62,7 +63,7 @@ url: https://publication.com
 summary: Description
 
 -- john-doe.skill: Web Development
-level: Master
+level: ovice
 keyword: HTML
 
 -- john-doe.language: English
