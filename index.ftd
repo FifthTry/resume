@@ -1,114 +1,119 @@
 
--- record resume:
-basics basic:
-work list work:
-volunteer list volunteer:
-education list education:
-awards list awards:
-certificates list certificates:
-publications list publications:
-skills list skills:
-languages list languages:
-interests list interests:
-project list project:
-
--- record basics:
-string name:
-string label:
-ftd.image-src image:
-string email:
-string phone:
-string url:
-string summary:
+-- record basic: $name
+caption name:
+optional string label:
+optional ftd.image-src image:
+optional string email:
+optional string phone:
+optional string url:
+optional string summary:
 
 -- record location:
-string address:
-string postalCode:
-string city:
-string countryCode:
-string region:
+optional string address:
+optional string postalCode:
+optional string city:
+optional string countryCode:
+optional string region:
 
 -- record profile:
-string network:
-string username:
-string url:
+optional string network:
+optional string username:
+optional string url:
 
 -- record work:
-string name:
-string position:
-string url:
-string startDate:
-string endDate:
-string summary:
-string highlights:
+optional string name:
+optional string position:
+optional string url:
+optional string startDate:
+optional string endDate:
+optional string summary:
+optional string highlights:
 
 -- record volunteer:
-string organization:
-string position:
-string url:
-string startDate:
-string endDate:
-string summary:
-string highlights:
+optional string organization:
+optional string position:
+optional string url:
+optional string startDate:
+optional string endDate:
+optional string summary:
+optional string highlights:
 
 -- record education:
-string institution:
-string url:
-string area:
-string studyType:
-string startDate:
-string endDate:
-string score:
-string courses:
+optional string institution:
+optional string url:
+optional string area:
+optional string studyType:
+optional string startDate:
+optional string endDate:
+optional string score:
+optional string courses:
 
--- record awards:
-string title:
-string date:
-string awarder:
-string summary:
+-- record award:
+optional string title:
+optional string date:
+optional string awarder:
+optional string summary:
 
--- record certificates:
-string name:
-string date:
-string issuer:
-string url:
+-- record certificate:
+optional string name:
+optional string date:
+optional string issuer:
+optional string url:
 
--- record publications:
-string name:
-string publisher:
-string releaseDate:
-string url:
-string summary:
+-- record publication:
+optional string name:
+optional string publisher:
+optional string releaseDate:
+optional string url:
+optional string summary:
 
--- record skills:
-string name:
-string level:
-string keywords:
+-- record skill:
+optional string name:
+optional string level:
+optional string keyword:
 
--- record languages:
-string language:
-string fluency:
+-- record language:
+optional string language:
+optional string fluency:
 
--- record interests:
-string name:
-string keywords:
+-- record interest:
+optional string name:
+optional string keyword:
 
--- record references:
-string name:
-string reference:
+-- record reference:
+optional string name:
+optional string reference:
 optional string phone-no:
 optional string email-id:
 optional string position:
 optional string company:
 
 -- record project:
-string name:
-string description:
-string highlights:
-string keywords:
-string startDate:
-string endDate:
-string url:
-string roles:
-string entity:
-string type:
+optional string name:
+optional string description:
+optional string highlights:
+optional string keyword:
+optional string startDate:
+optional string endDate:
+optional string url:
+optional string role:
+optional string entity:
+optional string type:
+
+-- record resume:
+optional basic basic:
+optional location location:
+optional profile profile:
+work list work:
+volunteer list volunteer:
+education list education:
+award list award:
+certificate list certificate:
+publication list publication:
+skill list skill:
+language list language:
+interest list interest:
+reference list reference:
+project list project:
+
+

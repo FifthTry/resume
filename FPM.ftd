@@ -9,6 +9,7 @@ base: https://raw.githubusercontent.com/fifthtry/resume/main
 -- fpm.auto-import: pd
 -- fpm.auto-import: fpm
 -- fpm.auto-import: pd/forest-theme as ft
+-- fpm.auto-import: fifthtry.github.io/resume/assets
 -- fpm.auto-import: fifthtry.github.io/resume/FPM/config
 
 

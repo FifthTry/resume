@@ -8,6 +8,7 @@ email: john@gmail.com
 phone: (912) 555-4321
 url: https://johndoe.com
 summary: A summary of John Doe…
+image: $assets.files.profile-image.png
 
 -- john-doe.location: 2712 Broadway St
 postalCode: CA 94115
@@ -80,7 +81,7 @@ company: joe cosmetics
 -- john-doe.project: Project name
 description: Description…
 highlights: Won award at AIHacks 2016
-keywords: HTML, CSS, JavaSript
+keyword: HTML
 startDate: 2019-01-01
 endDate: 2021-01-01
 url: https://project.com/
