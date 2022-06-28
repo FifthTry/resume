@@ -35,8 +35,7 @@ endDate: 2013-01-01
 summary: Description…
 highlights: Awarded "Volunteer of the Month"
 
--- john-doe.education:
-institution: University
+-- john-doe.education: University
 url: https://institution.com/
 area: Software Development
 studyType: Bachelor of Engineering
