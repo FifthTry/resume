@@ -1,6 +1,6 @@
 
 -- record resume:
-basics list basics:
+basic basics:
 work list work:
 volunteer list volunteer:
 education list education:
@@ -12,25 +12,25 @@ languages list languages:
 interests list interests:
 project list project:
 
--- record basics:
+-- record basic:
 string name:
 string label:
-string image:
+ftd.image-src image:
 string email:
 string phone:
 string url:
 string summary:
-location list location:
-profiles list profiles:
+locations location:
+profile profiles:
 
--- record location:
+-- record locations:
 string address:
 string postalCode:
 string city:
 string countryCode:
 string region:
 
--- record profiles:
+-- record profile:
 string network:
 string username:
 string url:
