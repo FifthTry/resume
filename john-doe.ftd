@@ -1,0 +1,87 @@
+-- import: fifthtry.github.io/resume as r
+
+-- r.resume john-doe: John Doe
+
+-- john-doe.basic: Programmer
+image: john-doe.jpg
+email: john@gmail.com
+phone: (912) 555-4321
+url: https://johndoe.com
+summary: A summary of John Doe…
+
+-- john-doe.location: 2712 Broadway St
+postalCode: CA 94115
+city: San Francisco
+countryCode: US
+region: California
+
+-- john-doe.profile: Twitter
+username: johndoe
+url: https://twitter.com/john
+
+-- john-doe.work: FifthTry Private Limited
+position: Software Developer
+url: https://fifthtry.com
+startDate: 2013-01-01
+endDate: 2014-01-01
+summary: Description…
+highlights: Started working on FTD language in this company
+
+-- john-doe.volunteer: Organization
+position: Volunteer
+url: https://organization.com/
+startDate: 2012-01-01
+endDate: 2013-01-01
+summary: Description…
+highlights: Awarded "Volunteer of the Month"
+
+-- john-doe.education:
+institution: University
+url: https://institution.com/
+area: Software Development
+studyType: Bachelor of Engineering
+startDate: 2011-01-01
+endDate: 2013-01-01
+score: 4.0
+courses: DB1101 - Basic SQL
+
+-- john-doe.award: Award name
+date: 2014-11-01
+awarder: Company
+summary: There is no spoon.
+
+-- john-doe.certificate: Certificate name
+date: 2021-11-07
+issuer: Company
+url: https://certificate.com
+
+-- john-doe.publication: Publication
+publisher: Company
+releaseDate: 2014-10-01
+url: https://publication.com
+summary: Description
+
+-- john-doe.skill: Web Development
+level: Master
+keywords: HTML, CSS, JavaScript
+
+-- john-doe.language: English
+fluency: Native speaker
+
+-- john-doe.interest: Wildlife
+keywords: Ferrets, Unicorns
+
+-- john-doe.reference: Jane Doe
+reference: Reference…
+
+-- john-doe.project: Project name
+description: Description…
+highlights: Won award at AIHacks 2016
+keywords: HTML, CSS, JavaSript
+startDate: 2019-01-01
+endDate: 2021-01-01
+url: https://project.com/
+role: Team Lead
+entity: Entity
+type: application
+
