@@ -6,6 +6,8 @@ optional ftd.image-src image:
 optional string email:
 optional string phone:
 optional string url:
+optional string maritalStatus:
+optional string dateOfBirth:
 optional string summary:
 
 -- record location:
