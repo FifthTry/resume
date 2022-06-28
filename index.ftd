@@ -103,7 +103,7 @@ optional string type:
 -- record resume:
 optional basic basic:
 optional location location:
-optional profile profile:
+profile list profile:
 work list work:
 volunteer list volunteer:
 education list education:
