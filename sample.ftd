@@ -3,7 +3,7 @@
 -- r.resume john-doe: 
 
 -- john-doe.basic: John Doe
-label: Programmer
+label: Software Developer
 email: john@gmail.com
 phone: (912) 555-4321
 url: https://johndoe.com
@@ -156,15 +156,18 @@ summary: Description
 level: ovice
 
 --- keywords: HTML
-level: ovice
+level: beginner
+
+--- keywords: Python
+level: advance
 
 -- john-doe.skill: Framework
 
 --- keywords: React
-level: ovice
+level: competent
 
 --- keywords: Angular
-level: beginner
+level: expert
 
 -- john-doe.language: English
 fluency: expert
@@ -172,14 +175,14 @@ fluency: expert
 -- john-doe.language: Hindi
 fluency: beginner
 
--- john-doe.language: English
+-- john-doe.language: German
 fluency: advance
 
 -- john-doe.interest: Wildlife
 keyword: Ferrets
 
 -- john-doe.interest: Travel
-keyword: Mumbai
+keyword: Beaches
 
 
 -- john-doe.interest: Food
