@@ -70,10 +70,16 @@ optional string releaseDate:
 optional string url:
 optional string summary:
 
+
+-- record keyword:
+optional string level:
+optional caption name:
+
+
 -- record skill:
 optional caption name:
-optional string level:
-optional string keyword:
+keyword list keywords:
+
 
 -- record language:
 optional caption language:

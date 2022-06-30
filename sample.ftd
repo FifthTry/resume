@@ -151,16 +151,20 @@ url: https://publication.com
 summary: Description
 
 -- john-doe.skill: Web Development
-level: ovice
-keyword: HTML
 
--- john-doe.skill: Web Development
+--- keywords: CSS
 level: ovice
-keyword: HTML
 
--- john-doe.skill: Web Development
+--- keywords: HTML
 level: ovice
-keyword: CSS
+
+-- john-doe.skill: Framework
+
+--- keywords: React
+level: ovice
+
+--- keywords: Angular
+level: beginner
 
 -- john-doe.language: English
 fluency: expert
