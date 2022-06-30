@@ -7,7 +7,7 @@ label: Programmer
 email: john@gmail.com
 phone: (912) 555-4321
 url: https://johndoe.com
-maritalStatus: single
+maritalStatus: Single
 dateOfBirth: 03-02-1998
 summary: A summary of John Doe…
 image: $assets.files.profile-image.png
@@ -31,7 +31,7 @@ position: Software Developer
 url: https://fifthtry.com
 startDate: 2013-01-01
 endDate: 2014-01-01
-location: mumbai
+location: Bangalore
 summary: Description…
 highlights: Started working on FTD language in this company
 
@@ -40,18 +40,18 @@ position: Software Developer
 url: https://extra.com
 startDate: 2012-01-01
 endDate: 2012-09-01
-location: mumbai
+location: Mumbai
 summary: Description…
-highlights: Started working on language in this company
+highlights: Started working as a software developer in this company
 
 -- john-doe.work: ABCD Private Limited
 position: Software Developer
 url: https://abcd.com
 startDate: 2012-01-01
 endDate: 2012-09-01
-location: mumbai
+location: Mumbai
 summary: Description…
-highlights: Started working on language in this company
+highlights: Started working as a junior software developer in this company
 
 -- john-doe.volunteer: Organization
 position: Volunteer
@@ -88,7 +88,7 @@ courses: DB1101 - Basic SQL
 
 -- john-doe.education: School
 url: https://institution.com/
-studyType: SSC
+studyType: HSC
 startDate: 2011-01-01
 endDate: 2013-01-01
 score: 4.0
@@ -96,7 +96,7 @@ courses: Physics, Chemistry, Math
 
 -- john-doe.education: School
 url: https://institution.com/
-studyType: HSC
+studyType: SSC
 startDate: 2011-01-01
 endDate: 2009-01-01
 score: 4.0
