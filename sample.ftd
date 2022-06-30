@@ -22,6 +22,10 @@ region: California
 username: johndoe
 url: https://twitter.com/john
 
+-- john-doe.profile: Linked-in
+username: johndoe
+url: https://twitter.com/john
+
 -- john-doe.work: FifthTry Private Limited
 position: Software Developer
 url: https://fifthtry.com
@@ -31,6 +35,24 @@ location: mumbai
 summary: Description…
 highlights: Started working on FTD language in this company
 
+-- john-doe.work: Extra Private Limited
+position: Software Developer
+url: https://extra.com
+startDate: 2012-01-01
+endDate: 2012-09-01
+location: mumbai
+summary: Description…
+highlights: Started working on language in this company
+
+-- john-doe.work: ABCD Private Limited
+position: Software Developer
+url: https://abcd.com
+startDate: 2012-01-01
+endDate: 2012-09-01
+location: mumbai
+summary: Description…
+highlights: Started working on language in this company
+
 -- john-doe.volunteer: Organization
 position: Volunteer
 url: https://organization.com/
@@ -38,6 +60,22 @@ startDate: 2012-01-01
 endDate: 2013-01-01
 summary: Description…
 highlights: Awarded "Volunteer of the Month"
+
+-- john-doe.volunteer: Organization
+position: Volunteer
+url: https://organization.com/
+startDate: 2012-01-01
+endDate: 2013-01-01
+summary: Description…
+highlights: Awarded "Volunteer of the Month"
+
+-- john-doe.volunteer: Organization
+position: Volunteer
+url: https://organization.com/
+startDate: 2012-01-01
+endDate: 2013-01-01
+summary: Description…
+highlights: Awarded "Volunteer of the year"
 
 -- john-doe.education: University
 url: https://institution.com/
@@ -48,10 +86,46 @@ endDate: 2013-01-01
 score: 4.0
 courses: DB1101 - Basic SQL
 
+-- john-doe.education: School
+url: https://institution.com/
+studyType: SSC
+startDate: 2011-01-01
+endDate: 2013-01-01
+score: 4.0
+courses: Physics, Chemistry, Math
+
+-- john-doe.education: School
+url: https://institution.com/
+studyType: HSC
+startDate: 2011-01-01
+endDate: 2009-01-01
+score: 4.0
+courses: Physics, Chemistry, Math
+
 -- john-doe.award: Award name
 date: 2014-11-01
 awarder: Company
 summary: There is no spoon.
+
+-- john-doe.award: Award name
+date: 2014-11-01
+awarder: Company
+summary: There is no spoon.
+
+-- john-doe.award: Award name
+date: 2014-11-01
+awarder: Company
+summary: There is no spoon.
+
+-- john-doe.certificate: Certificate name
+date: 2021-11-07
+issuer: Company
+url: https://certificate.com
+
+-- john-doe.certificate: Certificate name
+date: 2021-11-07
+issuer: Company
+url: https://certificate.com
 
 -- john-doe.certificate: Certificate name
 date: 2021-11-07
@@ -64,15 +138,48 @@ releaseDate: 2014-10-01
 url: https://publication.com
 summary: Description
 
+-- john-doe.publication: Publication
+publisher: Company
+releaseDate: 2014-10-01
+url: https://publication.com
+summary: Description
+
+-- john-doe.publication: Publication
+publisher: Company
+releaseDate: 2014-10-01
+url: https://publication.com
+summary: Description
+
 -- john-doe.skill: Web Development
 level: ovice
 keyword: HTML
 
+-- john-doe.skill: Web Development
+level: ovice
+keyword: HTML
+
+-- john-doe.skill: Web Development
+level: ovice
+keyword: CSS
+
 -- john-doe.language: English
-fluency: Native speaker
+fluency: expert
+
+-- john-doe.language: Hindi
+fluency: beginner
+
+-- john-doe.language: English
+fluency: advance
 
 -- john-doe.interest: Wildlife
 keyword: Ferrets
+
+-- john-doe.interest: Travel
+keyword: Mumbai
+
+
+-- john-doe.interest: Food
+keyword: Noodles
 
 -- john-doe.reference: Jane Doe
 reference: References
@@ -81,12 +188,47 @@ email-id: joe@joe.com
 position: CTO
 company: joe cosmetics
 
+-- john-doe.reference: Kane Philips
+reference: References
+phone-no: 123456789
+email-id: kane@kan.com
+position: CTO
+company: Kane cosmetics
+
+-- john-doe.reference: Vishal Dose
+reference: References
+phone-no: 123456789
+email-id: vis@vis.com
+position: CTO
+company: vishal cosmetics
+
 -- john-doe.project: Project name
 description: Description…
 highlights: Won award at AIHacks 2016
 keyword: HTML
 startDate: 2019-01-01
 endDate: 2021-01-01
+url: https://project.com/
+role: Team Lead
+entity: Entity
+type: application
+
+-- john-doe.project: Project name
+description: Description…
+keyword: HTML
+startDate: 2014-01-01
+endDate: 2015-01-01
+url: https://project.com/
+role: Team Lead
+entity: Entity
+type: application
+
+-- john-doe.project: Project name
+description: Description…
+highlights: Won award at AIHacks 2016
+keyword: HTML
+startDate: 2015-01-01
+endDate: 2016-01-01
 url: https://project.com/
 role: Team Lead
 entity: Entity
