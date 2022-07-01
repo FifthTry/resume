@@ -2,9 +2,12 @@
 
 
 
--- ft.page: `FTD` Resume template
+-- ft.page: `FTD` Resume
 
-{resumelink} resume template is based on {jsonresume}. 
+{resumelink} can be used for showing your resume in FTD sites.
+
+It is based on {jsonresume}. Any json-resume's json can be used with this
+site.
 
 -- ftd.text jsonresume: jsonresume.org
 link: https://jsonresume.org/
@@ -35,11 +38,11 @@ ftd.image-src screenshot:
 -- template list templates:
 
 -- templates: OnePage
-template-url: /
+template-url: https://fifthtry.github.io/onepage
 screenshot: $assets.files.profile-image.png
 
--- templates: Paper
-template-url: /
+-- templates: Elegant
+template-url: http://fifthtry.github.io/elegant/
 screenshot: $assets.files.profile-image.png
 
 
