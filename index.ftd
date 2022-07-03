@@ -58,7 +58,6 @@ screenshot: $assets.files.caffeine-sample.png
 
 
 
-
 -- ftd.row template-list:
 template list templates:
 width: fill
