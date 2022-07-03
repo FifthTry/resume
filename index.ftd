@@ -1,7 +1,4 @@
 
-
-
-
 -- ft.page: `FTD` Resume
 
 {resumelink} can be used for showing your resume in FTD sites.
@@ -21,11 +18,13 @@ open-in-new-tab: true
 
 
 
--- ft.h2: Featured Resume Themes:
 
+-- ft.h2: Featured Resume Themes:
 
 -- template-list:
 templates: $templates
+
+
 
 
 
@@ -52,8 +51,6 @@ screenshot: $assets.files.elegant-sample.png
 -- templates: OnePage
 template-url: https://fifthtry.github.io/resume-onepage/
 screenshot: $assets.files.one-pqge-sample.png
-
-
 
 
 
@@ -124,15 +121,6 @@ link: $template-url
 border-radius: 4
 open-in-new-tab: true
 background-color: $fpm.color.main.text
-
-
-
-
-
-
-
-
-
 
 
 
@@ -214,7 +202,6 @@ optional string releaseDate:
 optional string url:
 optional string summary:
 
-
 -- record keyword:
 optional string level:
 optional caption name:
@@ -223,7 +210,6 @@ optional caption name:
 -- record skill:
 optional caption name:
 keyword list keywords:
-
 
 -- record language:
 optional caption language:
@@ -268,5 +254,3 @@ language list language:
 interest list interest:
 reference list reference:
 project list project:
-
-
