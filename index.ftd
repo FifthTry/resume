@@ -37,17 +37,23 @@ ftd.image-src screenshot:
 
 -- template list templates:
 
--- templates: OnePage
-template-url: https://fifthtry.github.io/onepage
-screenshot: $assets.files.one-pqge-sample.png
+-- templates: Actual
+template-url: http://fifthtry.github.io/actual/
+screenshot: $assets.files.actual-sample.png
+
+-- templates: Caffeine
+template-url: http://fifthtry.github.io/caffeine/
+screenshot: $assets.files.caffeine-sample.png
 
 -- templates: Elegant
 template-url: http://fifthtry.github.io/elegant/
 screenshot: $assets.files.elegant-sample.png
 
--- templates: Caffeine
-template-url: http://fifthtry.github.io/caffeine/
-screenshot: $assets.files.caffeine-sample.png
+-- templates: OnePage
+template-url: https://fifthtry.github.io/onepage
+screenshot: $assets.files.one-pqge-sample.png
+
+
 
 
 
