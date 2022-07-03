@@ -38,19 +38,19 @@ ftd.image-src screenshot:
 -- template list templates:
 
 -- templates: Actual
-template-url: http://fifthtry.github.io/actual-resume/
+template-url: http://fifthtry.github.io/resume-actual/
 screenshot: $assets.files.actual-sample.png
 
 -- templates: Caffeine
-template-url: http://fifthtry.github.io/caffeine-resume/
+template-url: http://fifthtry.github.io/resume-caffeine/
 screenshot: $assets.files.caffeine-sample.png
 
 -- templates: Elegant
-template-url: http://fifthtry.github.io/elegant-resume/
+template-url: http://fifthtry.github.io/resume-elegant/
 screenshot: $assets.files.elegant-sample.png
 
 -- templates: OnePage
-template-url: https://fifthtry.github.io/onepage-resume/
+template-url: https://fifthtry.github.io/resume-onepage/
 screenshot: $assets.files.one-pqge-sample.png
 
 
