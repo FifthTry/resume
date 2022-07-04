@@ -66,7 +66,19 @@ template list templates:
 width: fill
 spacing: 24
 
---- theme-loop: $obj.title
+--- theme-loop-desktop: $obj.title
+if: not $ft.is-mobile 
+$loop$: $templates as $obj
+template-url: $obj.template-url
+screenshot: $obj.screenshot
+
+--- container: ftd.main
+
+--- ftd.column:
+if: $ft.is-mobile 
+width: fill
+
+--- theme-loop-mobile: $obj.title
 $loop$: $templates as $obj
 template-url: $obj.template-url
 screenshot: $obj.screenshot
@@ -79,8 +91,7 @@ screenshot: $obj.screenshot
 
 
 
-
--- ftd.row theme-loop:
+-- ftd.row theme-loop-desktop:
 caption title:
 string template-url:
 ftd.image-src screenshot: 
@@ -99,6 +110,57 @@ link: $template-url
 open-in-new-tab: true
 width: 200
 min-height: 220
+
+--- ftd.text: $title
+role: $fpm.type.heading-small
+color: $fpm.color.main.text
+link: $template-url
+open-in-new-tab: true
+align: center
+
+--- ftd.text: Preview Theme
+role: $fpm.type.copy-tight
+color: $fpm.color.main.border
+anchor: parent
+bottom: 80
+left: 45
+border-width: 1
+border-color: $fpm.color.main.border
+align: center
+padding: $fpm.space.space-2
+link: $template-url
+border-radius: 4
+open-in-new-tab: true
+background-color: $fpm.color.main.text
+
+
+
+
+
+
+
+
+
+
+-- ftd.column theme-loop-mobile:
+caption title:
+string template-url:
+ftd.image-src screenshot: 
+margin-bottom: $fpm.space.space-8
+
+--- ftd.column:
+spacing: 12
+padding-horizontal: $fpm.space.space-3
+padding-vertical: $fpm.space.space-3
+border-width: 1
+border-color: $fpm.color.main.border-strong
+border-radius: 4
+
+--- ftd.image:
+src: $screenshot
+link: $template-url
+open-in-new-tab: true
+width: fill
 
 --- ftd.text: $title
 role: $fpm.type.heading-small
