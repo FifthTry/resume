@@ -36,21 +36,10 @@ ftd.image-src screenshot:
 
 -- template list templates:
 
--- templates: Actual
-template-url: http://fifthtry.github.io/resume-actual/
-screenshot: $assets.files.actual-sample.png
-
 -- templates: Caffeine
 template-url: http://fifthtry.github.io/resume-caffeine/
 screenshot: $assets.files.caffeine-sample.png
 
--- templates: Elegant
-template-url: http://fifthtry.github.io/resume-elegant/
-screenshot: $assets.files.elegant-sample.png
-
--- templates: OnePage
-template-url: https://fifthtry.github.io/resume-onepage/
-screenshot: $assets.files.one-pqge-sample.png
 
 
 
@@ -109,7 +98,7 @@ src: $screenshot
 link: $template-url
 open-in-new-tab: true
 width: 200
-min-height: 220
+min-height: 150
 
 --- ftd.text: $title
 role: $fpm.type.heading-small
@@ -118,7 +107,7 @@ link: $template-url
 open-in-new-tab: true
 align: center
 
---- ftd.text: Preview Theme
+\--- ftd.text: Preview Theme
 role: $fpm.type.copy-tight
 color: $fpm.color.main.border
 anchor: parent
