@@ -107,20 +107,7 @@ link: $template-url
 open-in-new-tab: true
 align: center
 
-\--- ftd.text: Preview Theme
-role: $fpm.type.copy-tight
-color: $fpm.color.main.border
-anchor: parent
-bottom: 80
-left: 45
-border-width: 1
-border-color: $fpm.color.main.border
-align: center
-padding: $fpm.space.space-2
-link: $template-url
-border-radius: 4
-open-in-new-tab: true
-background-color: $fpm.color.main.text
+
 
 
 
