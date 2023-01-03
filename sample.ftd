@@ -8,7 +8,7 @@ email: john@gmail.com
 phone: (912) 555-4321
 url: https://johndoe.com
 maritalStatus: Single
-dateOfBirth: 03-02-1998
+dateOfBirth: 03rd Jan 1998
 summary: I’m a full stack web developer who can build apps from the ground up. I've worked mostly at startups so I am use to wearing many hats. I am a very product focussed developer who priotizes user feedback first and foremost. I'm generally very flexible when investigating new roles.
 image: $assets.files.profile-picture.jpg
 
@@ -82,7 +82,7 @@ highlights: Aliquam ut lectus ac lacus ultrices, Ut ac ex ac ipsum commodo.
 -- john-doe.education: University of Stanford
 url: /
 area: Computer Science
-studyType: Master
+studyType: Masters
 startDate: May-2007
 endDate: April-2008
 score: 9.0
@@ -91,7 +91,7 @@ courses: SQL
 -- john-doe.education: University of Oklahoma
 url: /
 area: Information Technology
-studyType: Bachelor
+studyType: Graduation
 startDate: May-2004
 endDate: Jan-2007
 score: 8.0
