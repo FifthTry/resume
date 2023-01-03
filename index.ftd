@@ -37,7 +37,7 @@ ftd.image-src screenshot:
 -- template list templates:
 
 -- templates: Caffeine
-template-url: http://fifthtry.github.io/resume-caffeine/
+template-url: http://fifthtry.github.io/caffeine-resume/
 screenshot: $assets.files.caffeine-sample.png
 
 
