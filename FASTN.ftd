@@ -1,0 +1,15 @@
+-- import: fastn
+
+-- fastn.package: fifthtry.github.io/resume
+download-base-url: https://raw.githubusercontent.com/fifthtry/resume/main
+
+-- fastn.dependency: fifthtry.github.io/package-doc as pd
+
+-- fastn.auto-import: pd
+-- fastn.auto-import: fastn
+-- fastn.auto-import: pd/forest-theme as ft
+-- fastn.auto-import: fifthtry.github.io/resume/assets
+-- fastn.auto-import: fifthtry.github.io/resume/fastn/ds
+
+
+
