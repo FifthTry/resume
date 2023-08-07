@@ -1,2 +1,2 @@
 # resume
-This `fpm package` contains the template for resume
+This `fastn package` contains the template for resume

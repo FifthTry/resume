@@ -3,8 +3,23 @@
 
 
 -- r.resume john-doe: 
+basic: $basic
+location: $location
+profile: $profiles
+work: $works
+volunteer: $volunteers
+education: $educations
+award: $awards
+certificate: $certificates
+publication: $publications
+skill: $skills
+language: $languages
+interest: $interests
+reference: $references
+project: $projects
 
--- john-doe.basic: John Doe
+
+-- r.basic basic: John Doe
 label: Web Developer
 email: john@gmail.com
 phone: (912) 555-4321
@@ -14,21 +29,27 @@ dateOfBirth: 03rd Jan 1986
 summary: I’m a full-stack web developer who can build apps from the ground up. I’ve worked mostly at startups so I am used to wearing many hats. I am a very product focussed developer who prioritizes user feedback first and foremost. I’m generally very flexible when investigating new roles.
 image: $assets.files.profile-picture.jpg
 
--- john-doe.location: 2712 Broadway St
+-- r.location location: 2712 Broadway St
 postalCode: CA 94115
 city: San Francisco
 countryCode: US
 region: California
 
--- john-doe.profile: Twitter
+-- r.profile list profiles:
+
+-- r.profile: Twitter
 username: johndoe
 url: https://twitter.com/john
 
--- john-doe.profile: Linked-in
+-- r.profile: Linked-in
 username: johndoe
 url: https://twitter.com/john
 
--- john-doe.work: Tokenized
+-- end: profiles
+
+-- r.work list works:
+
+-- r.work: Tokenized
 position: Senior Javascript Developer
 url: /
 startDate: May, 2020
@@ -37,7 +58,7 @@ location: Bangalore
 summary: Tokenized is a Bitcoin wallet for issuing, managing and trading digital tokens. I built out the front end which was packaged as an electron app. It was a difficult frontend to build because we stored the user keys locally and used them to sign transactions and contracts.
 highlights: Awarded as Employee of the Year - 2013, and won a holiday trip to London, UK.
 
--- john-doe.work: Blockbid
+-- r.work: Blockbid
 position: Senior Javascript Developer
 url: /
 startDate: Mar, 2018
@@ -46,7 +67,7 @@ location: Paddington DC
 summary: Blockbid is an Australian crypto currency exchange. I started off on the frontend but eventually became lead tech and worked on every moving piece of the exchange. I really enjoyed working with liquidity providers and connecting their platforms to help us achieve liquid markets.
 highlights: Optimizing markets with tens of millions of rows using SQL., Used Figma for design and UX work
 
--- john-doe.work: Listium
+-- r.work: Listium
 position: Developer
 url: /
 startDate: Jan, 2016
@@ -55,7 +76,7 @@ location: Melbourne
 summary: Built a very large and complex React / Redux application. It works on all platforms and has IOS/Android builds due to it being a PWA. (wrapped it in React Native though only implementing a WebView)
 highlights: Worked with Postgres, Redis and Dynamodb for storage. Hosted on a mixture of Heroku Apps and EC2 servers. Hybrid app supported on all platforms
 
--- john-doe.work: Cdnjs
+-- r.work: Cdnjs
 position: Co-Founder
 url: /
 startDate: Jan, 2014
@@ -64,7 +85,11 @@ location: Melbourne
 summary: Following Google’s CDN for jQuery, we decided to start a CDN for the less popular Javascript frameworks. The CDN is community moderated and open source on GitHub. We secured a partnership with Cloudflare who now supports the infrastructure.
 highlights: Larger market share than Yahoo, Microsoft and Google javascript content distribution networks. We serve hundreds of billions request a month
 
--- john-doe.volunteer: AI dreams
+-- end: works
+
+-- r.volunteer list volunteers:
+
+-- r.volunteer: AI dreams
 position: Lead volunteer
 url: /
 startDate: Oct 2011
@@ -72,7 +97,7 @@ endDate: Dec 2014
 summary: Helped launch eight student tech startups. Helped manage program platform. Student magazine editor volunteer.
 highlights: Honored as editor for student magazine.
 
--- john-doe.volunteer: Technician mentorship program
+-- r.volunteer: Technician mentorship program
 position: Mentor
 url: /
 startDate: Feb 2009 
@@ -80,8 +105,11 @@ endDate: Oct 2011
 summary: Volunteered as a mentor. Helped students gain basic IT skills. Taught and offered guidance to trainees on new computer programs.
 highlights: Honored with student choice award for best mentor.
 
+-- end: volunteers
 
--- john-doe.education: University of Oklahoma
+-- r.education list educations:
+
+-- r.education: University of Oklahoma
 url: /
 area: Management Information Technology
 studyType: Masters
@@ -90,7 +118,7 @@ endDate: Jan-2009
 score: 9.0
 courses: Business, Cybersecurity
 
--- john-doe.education: University of Oklahoma
+-- r.education: University of Oklahoma
 url: /
 area: Information Technology
 studyType: Bachelors
@@ -99,128 +127,178 @@ endDate: Jan-2007
 score: 8.0
 courses: C++, Java
 
--- john-doe.award: Website of the day
+-- end: educations
+
+-- r.award list awards:
+
+-- r.award: Website of the day
 date: Aug-2014
 awarder: Awwward
 summary: Received for my website domain.com.
 
--- john-doe.award: Java Champion
+-- r.award: Java Champion
 date: April-2018
 awarder: Oracle
 summary: Obtained thanks to my contributions to the Java community. 
 
--- john-doe.certificate: AWS Certified Solutions - Architect - Professional
+-- end: awards
+
+-- r.certificate list certificates:
+
+-- r.certificate: AWS Certified Solutions - Architect - Professional
 date: Dec-2019
 issuer: Amazon Web Services
 url: /
 
--- john-doe.certificate: Oracle Certified Professional - Java SE 17 Developer
+-- r.certificate: Oracle Certified Professional - Java SE 17 Developer
 date: July-2018
 issuer: Oracle
 url: /
 
--- john-doe.certificate: CCNA Routing and Switching
+-- r.certificate: CCNA Routing and Switching
 date: Jun-2017
 issuer: Cisco
 url: /
 
--- john-doe.publication: Chasing the Higgs Boson
+-- end: certificates
+
+-- r.publication list publications:
+
+-- r.publication: Chasing the Higgs Boson
 publisher: The New York Times
 releaseDate: Mar 2013
 url: /
 summary: Integer luctus erat at sapien pharetra, nec elementum diam euismod. Maecenas condimentum eu nisi ut aliquet. Donec vitae ultricies risus. Donec commodo justo at odio cursus, nec mattis tellus dignissim.
 
--- john-doe.publication: Clean Code: A Handbook of Agile Software Craftsmanship
+-- r.publication: Clean Code: A Handbook of Agile Software Craftsmanship
 publisher: Pearson
 releaseDate: Aug 2008
 url: /
 summary: Morbi lobortis sodales nisi, et vulputate diam posuere vitae. Phasellus sollicitudin vehicula justo vel tincidunt. Donec faucibus magna ut sollicitudin tincidunt. Etiam sodales neque eu mollis egestas. Nam nisl nulla, iaculis sit amet condimentum quis, iaculis ut ex. Donec gravida efficitur ligula, ac auctor magna efficitur vel.
 
--- john-doe.skill: Frontend
+-- end: publications
 
---- keywords: HTML / JSX
+
+-- r.keywords list frontend:
+
+-- r.keywords: HTML / JSX
 level: expert
 
---- keywords: SCSS / CSS 
+-- r.keywords: SCSS / CSS 
 level: beginner
 
---- keywords: Javascript / React
+-- r.keywords: Javascript / React
 level: advance
 
--- john-doe.skill: Backend
+-- end: frontend
 
---- keywords: Node
+
+-- r.keywords list backend:
+
+-- r.keywords: Node
 level: competent
 
---- keywords: Ruby
+-- r.keywords: Ruby
 level: expert
 
---- keywords: Python
+-- r.keywords: Python
 level: competent
 
---- keywords: Postgres
+-- r.keywords: Postgres
 level: expert
 
---- keywords: Redis
+-- r.keywords: Redis
 level: competent
 
---- keywords: Serverless
+-- r.keywords: Serverless
 level: expert
 
--- john-doe.skill: Devops
+-- end: backend
 
---- keywords: AWS
+
+-- r.keywords list devops:
+
+-- r.keywords: AWS
 level: competent
 
---- keywords: Cloud
+-- r.keywords: Cloud
 level: expert
 
---- keywords: Heroku
+-- r.keywords: Heroku
 level: competent
 
---- keywords: Caching
+-- r.keywords: Caching
 level: expert
 
--- john-doe.language: English
+-- end: devops
+
+-- r.skill list skills:
+
+-- r.skill: Frontend
+keywords: $frontend
+
+-- r.skill: Backend
+keywords: $backend
+
+-- r.skill: Devops
+keywords: $devops
+
+-- end: skills
+
+-- r.language list languages:
+
+-- r.language: English
 fluency: expert
 
--- john-doe.language: Hindi
+-- r.language: Hindi
 fluency: beginner
 
--- john-doe.language: German
+-- r.language: German
 fluency: advance
 
--- john-doe.interest: Nature
+-- end: languages
+
+-- r.interest list interests:
+
+-- r.interest: Nature
 keyword: Gardening
 
--- john-doe.interest: Travel
+-- r.interest: Travel
 keyword: Reading
 
--- john-doe.interest: Food
+-- r.interest: Food
 keyword: Noodles
 
--- john-doe.reference: Joey Flores
+-- end: interests
+
+-- r.reference list references:
+
+-- r.reference: Joey Flores
 reference: John was hired as a lead developer and, upon the leaving of our co-founder, took over as CTO of Earbits. John is, hands down, one of those A Players you hear of companies dying to hire. He is incredibly smart, not just at code but about everything from classical music to Chinese language and culture. John is great to work with and, as a well established contributor to open source projects and several successful ventures, commands the respect of engineers at all levels. I would suggest doing anything you can to have him on your team.
 phone-no: 123-456789
 email-id: joe@joe.com
 position: Co-founder and CEO
 company: Earbits, Inc.
 
--- john-doe.reference: Yotam Rosenbaum
+-- r.reference: Yotam Rosenbaum
 reference: I've had the great pleasure of working with John for the past three years at Earbits, and on a few side projects. Two years ago our CTO left on a moment's notice, John saved our company by quickly stepping up to fill this role. He has been with our company through thick and thin and made serious personal sacrifices in order to help the company during tough times. He is a phenomenal hacker and a true team player. Highly recommended!
 phone-no: 123456-789
 email-id: Yotam@yotam.com
 position: SVP of Operations
 company: Earbits, Inc.
 
--- john-doe.reference: Ryan Kirkman
+-- r.reference: Ryan Kirkman
 reference: John is an extremely talented engineer with a very broad range of skills and experience. From being a thought leader in the front-end community via backbonetutorials.com and cdnjs.com, to designing and implementing the API for cdnjs.com, working with John has been a fantastic learning experience. John is truly a full stack developer, and his work output is incredible. If there is any opportunity to work with John, I take it. He is the definition of an A player.
 phone-no: 12345-6789
 email-id: Ryan@Ryan.com
 position: Senior Software Engineer
 company: Nerdwallet
 
--- john-doe.project: Deno.com
+-- end: references
+
+-- r.project list projects:
+
+-- r.project: Deno.com
 description: John is a runtime for JavaScript and TypeScript that is based on the V8 JavaScript engine and the Rust programming language. It was created by John Doe, original creator of Node.js, and is focused on productivity. It was announced by Doe in 2018 during his talk "10 Things I Regret About Node.js".
 highlights: Vitae tempus quam pellentesque, Scelerisque felis imperdiet, Dui accumsan sit amet nulla
 keyword: Node JS, JavaScript, TypeScript, Rust
@@ -231,7 +309,7 @@ role: Creator
 entity: Deno
 type: Mobile Application
 
--- john-doe.project: Node.org
+-- r.project: Node.org
 description: Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that executes JavaScript code outside a web browser.
 keyword: Node JS
 startDate: Aug 2011
@@ -240,3 +318,5 @@ url: /
 role: Contributor and evangelist
 entity: Node.org
 type: Server-side Application
+
+-- end: projects
