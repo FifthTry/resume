@@ -179,55 +179,55 @@ summary: Morbi lobortis sodales nisi, et vulputate diam posuere vitae. Phasellus
 -- end: publications
 
 
--- r.keywords list frontend:
+-- r.keyword list frontend:
 
--- r.keywords: HTML / JSX
+-- r.keyword: HTML / JSX
 level: expert
 
--- r.keywords: SCSS / CSS 
+-- r.keyword: SCSS / CSS 
 level: beginner
 
--- r.keywords: Javascript / React
+-- r.keyword: Javascript / React
 level: advance
 
 -- end: frontend
 
 
--- r.keywords list backend:
+-- r.keyword list backend:
 
--- r.keywords: Node
+-- r.keyword: Node
 level: competent
 
--- r.keywords: Ruby
+-- r.keyword: Ruby
 level: expert
 
--- r.keywords: Python
+-- r.keyword: Python
 level: competent
 
--- r.keywords: Postgres
+-- r.keyword: Postgres
 level: expert
 
--- r.keywords: Redis
+-- r.keyword: Redis
 level: competent
 
--- r.keywords: Serverless
+-- r.keyword: Serverless
 level: expert
 
 -- end: backend
 
 
--- r.keywords list devops:
+-- r.keyword list devops:
 
--- r.keywords: AWS
+-- r.keyword: AWS
 level: competent
 
--- r.keywords: Cloud
+-- r.keyword: Cloud
 level: expert
 
--- r.keywords: Heroku
+-- r.keyword: Heroku
 level: competent
 
--- r.keywords: Caching
+-- r.keyword: Caching
 level: expert
 
 -- end: devops
