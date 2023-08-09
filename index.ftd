@@ -135,36 +135,49 @@ screenshot: $assets.files.caffeine-sample.png
 
 
 -- component template-list:
-template list templates: $templates
+template list templates: 
 
 -- ftd.row:
 width: fill-container
 spacing.fixed.px: 24
 
--- ftd.desktop:
 
--- theme-loop-desktop: $obj.title 
-template-url: $obj.template-url
-screenshot: $obj.screenshot
-$loop$: $template-list.templates as $obj
-
--- end: ftd.desktop
-
--- ftd.mobile:
-
--- theme-loop-mobile: $obj.title 
-template-url: $obj.template-url
-screenshot: $obj.screenshot
-$loop$: $template-list.templates as $obj
-
--- end: ftd.mobile
+-- theme:
+templates: $template-list.templates
 
 -- end: ftd.row
 
 -- end: template-list
 
 
+-- component theme:
+template list templates:
 
+-- ftd.column:
+
+-- ftd.column:
+if: { ftd.device != "mobile"}
+
+-- theme-loop-desktop: $obj.title 
+template-url: $obj.template-url
+screenshot: $obj.screenshot
+$loop$: $theme.templates as $obj
+
+-- end: ftd.column
+
+-- ftd.column:
+if: { ftd.device == "mobile"}
+
+-- theme-loop-mobile: $obj.title 
+template-url: $obj.template-url
+screenshot: $obj.screenshot
+$loop$: $theme.templates as $obj
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: theme
 
 
 
@@ -237,7 +250,7 @@ open-in-new-tab: true
 text-align: center
 
 -- ftd.text: Preview Theme
-role: $inherited.types.copy-tight
+role: $inherited.types.copy-small
 color: $inherited.colors.border
 anchor: parent
 bottom.px: 80
