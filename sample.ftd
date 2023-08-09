@@ -45,6 +45,16 @@ url: https://twitter.com/john
 username: johndoe
 url: https://twitter.com/john
 
+-- r.profile: Figma
+username: johndoe
+url: https://twitter.com/john
+
+
+-- r.profile: Github
+username: johndoe
+url: https://twitter.com/john
+
+
 -- end: profiles
 
 -- r.work list works:
