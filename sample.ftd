@@ -1,5 +1,5 @@
 -- import: fifthtry.github.io/resume as r
-
+-- import: fifthtry.github.io/resume/assets 
 
 
 -- r.resume john-doe: 
@@ -26,12 +26,12 @@ phone: (912) 555-4321
 url: https://johndoe.com
 maritalStatus: Single
 dateOfBirth: 03rd Jan 1986
-summary: I’m a full-stack web developer who can build apps from the ground up. I’ve worked mostly at startups so I am used to wearing many hats. I am a very product focussed developer who prioritizes user feedback first and foremost. I’m generally very flexible when investigating new roles.
+summary: "I’m a full-stack web developer who can build apps from the ground up. I’ve worked mostly at startups so I am used to wearing many hats. I am a very product focussed developer who prioritizes user feedback first and foremost. I’m generally very flexible when investigating new roles."
 image: $assets.files.profile-picture.jpg
 
--- r.location location: 2712 Broadway St
+-- r.location location: 2712 Broadway 
 postalCode: CA 94115
-city: San Francisco
+city: Francisco
 countryCode: US
 region: California
 
@@ -308,6 +308,7 @@ url: /
 role: Creator
 entity: Deno
 type: Mobile Application
+image: $assets.files.image.svg
 
 -- r.project: Node.org
 description: Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that executes JavaScript code outside a web browser.
@@ -318,5 +319,6 @@ url: /
 role: Contributor and evangelist
 entity: Node.org
 type: Server-side Application
+image: $assets.files.image.svg
 
 -- end: projects
