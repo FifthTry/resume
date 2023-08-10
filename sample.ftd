@@ -309,7 +309,7 @@ company: Nerdwallet
 -- r.project list projects:
 
 -- r.project: Deno.com
-description: John is a runtime for JavaScript and TypeScript that is based on the V8 JavaScript engine and the Rust programming language. It was created by John Doe, original creator of Node.js, and is focused on productivity. It was announced by Doe in 2018 during his talk "10 Things I Regret About Node.js".
+description: JavaScript and TypeScript that is based on the V8 JavaScript engine and the Rust programming language. It was created by John Doe, original creator of Node.js, and is focused on productivity.
 highlights: Vitae tempus quam pellentesque, Scelerisque felis imperdiet, Dui accumsan sit amet nulla
 keyword: Node JS, JavaScript, TypeScript, Rust
 startDate: May 2018
