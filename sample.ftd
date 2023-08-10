@@ -318,7 +318,7 @@ url: /
 role: Creator
 entity: Deno
 type: Mobile Application
-image: $assets.files.image.svg
+image: $assets.files.image-1.svg
 
 -- r.project: Node.org
 description: Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that executes JavaScript code outside a web browser.
@@ -329,6 +329,6 @@ url: /
 role: Contributor and evangelist
 entity: Node.org
 type: Server-side Application
-image: $assets.files.image.svg
+image: $assets.files.image-2.svg
 
 -- end: projects
